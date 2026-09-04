@@ -7,15 +7,15 @@ about:
   head: 867270e
   archived: false
   latestVersion: V1.53.0
-  collectedAt: 2026-09-04T19:27:35Z
+  collectedAt: 2026-09-04T21:05:20Z
 timeline:
   created: 2025-09-23
   lastCommit: 2026-09-03
   lastRelease: 2026-08-30
 popularity:
-  star: 66186
+  star: 66193
   watcher: 147
-  fork: 2326
+  fork: 2327
   release: 63
   contributor: 131
   pullRequest: 519
@@ -83,5 +83,53 @@ total:
   openIssue: 3
   commit: 3092
 ---
+path: /home/runner/.x-repo/github.com/tw93/Mole
+collectedAt: 2026-09-04T21:05:29Z
+loc:
+  Sh:
+    code: 39318
+    comments: 5304
+    blanks: 4766
+    files: 63
+  Go:
+    code: 20149
+    comments: 1073
+    blanks: 2505
+    files: 59
+  Svg:
+    code: 1466
+    comments: 1
+    blanks: 0
+    files: 1
+  Bash:
+    code: 269
+    comments: 19
+    blanks: 41
+    files: 2
+  Python:
+    code: 132
+    comments: 8
+    blanks: 22
+    files: 1
+  Makefile:
+    code: 47
+    comments: 10
+    blanks: 17
+    files: 1
+  Markdown:
+    code: 0
+    comments: 1081
+    blanks: 378
+    files: 8
+  Text:
+    code: 0
+    comments: 116
+    blanks: 13
+    files: 1
+total:
+  code: 61468
+  comments: 7629
+  blanks: 7754
+  files: 136
 ---
 
