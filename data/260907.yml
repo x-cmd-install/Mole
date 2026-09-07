@@ -5,19 +5,19 @@ about:
   head: 0e9d55d
   archived: false
   latestVersion: "V1.53.0"
-  collectedAt: 2026-09-07T05:36:06Z
+  collectedAt: 2026-09-07T18:58:28Z
 timeline:
   created: 2025-09-23
   lastCommit: 2026-09-07
   lastRelease: 2026-08-30
 popularity:
-  star: 66436
+  star: 66511
   watcher: 150
-  fork: 2336
+  fork: 2339
   release: 63
   contributor: 132
-  pullRequest: 521
-  issue: 952
+  pullRequest: 523
+  issue: 955
 language:
   Shell: 3799850
   Go: 690138
@@ -29,60 +29,60 @@ recent:
     since: 2026-08-08
     release: 5
     mergedPR: 44
-    openPR: 0
-    closedIssue: 70
+    openPR: 2
+    closedIssue: 73
     openIssue: 1
     commit: 142
   last60d:
     since: 2026-07-09
     release: 12
     mergedPR: 90
-    openPR: 0
-    closedIssue: 191
+    openPR: 2
+    closedIssue: 194
     openIssue: 1
     commit: 467
   last90d:
     since: 2026-06-09
     release: 17
     mergedPR: 106
-    openPR: 0
-    closedIssue: 279
+    openPR: 2
+    closedIssue: 282
     openIssue: 1
     commit: 582
   last180d:
     since: 2026-03-11
     release: 34
     mergedPR: 242
-    openPR: 0
-    closedIssue: 593
+    openPR: 2
+    closedIssue: 596
     openIssue: 1
     commit: 1170
   last360d:
     since: 2025-09-12
     release: 63
     mergedPR: 370
-    openPR: 0
-    closedIssue: 951
+    openPR: 2
+    closedIssue: 954
     openIssue: 1
     commit: 2833
   last720d:
     since: 2024-09-17
     release: 63
     mergedPR: 370
-    openPR: 0
-    closedIssue: 951
+    openPR: 2
+    closedIssue: 954
     openIssue: 1
     commit: 3110
 total:
   release: 63
   mergedPR: 370
-  openPR: 0
-  closedIssue: 951
+  openPR: 2
+  closedIssue: 954
   openIssue: 1
   commit: 3110
 ---
 path: /home/runner/.x-repo/github.com/tw93/Mole
-collectedAt: 2026-09-07T05:36:39Z
+collectedAt: 2026-09-07T18:59:00Z
 loc:
   Sh:
     code: 39488
@@ -133,7 +133,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T05:36:41+00:00
+  collectedAt: 2026-09-07T18:59:00+00:00
   platform:
     darwin/arm64:
       name:  binaries-darwin-arm64.tar.gz
