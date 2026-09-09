@@ -2,96 +2,96 @@ about:
   description: "🐹 Clean, uninstall, analyze, optimize, and monitor your Mac. Free open-source CLI, plus a native Mac app."
   license: GPL-3.0
   homepage: https://mole.fit/
-  head: 08d7f1b
+  head: d2a7a12
   archived: false
   latestVersion: "V1.53.0"
   latestRelease: "V1.53.0"
   latestPrerelease: "v1.30.0-windows"
-  collectedAt: 2026-09-09T05:42:53Z
+  collectedAt: 2026-09-09T20:00:17Z
 timeline:
   created: 2025-09-23
-  lastCommit: 2026-09-08
+  lastCommit: 2026-09-09
   lastVersion: 2026-08-30
   lastRelease: 2026-08-30
   lastPrerelease: 2026-08-16
 popularity:
-  star: 66650
-  watcher: 150
-  fork: 2347
+  star: 66705
+  watcher: 152
+  fork: 2349
   release: 63
-  contributor: 133
-  pullRequest: 526
-  issue: 956
+  contributor: 134
+  pullRequest: 527
+  issue: 957
 language:
-  Shell: 3844071
+  Shell: 3883196
   Go: 690138
-  Python: 12199
+  Python: 18669
   Makefile: 2235
-totalBytes: 4548643
+totalBytes: 4594238
 recent:
   last30d:
     since: 2026-08-10
     release: 4
-    mergedPR: 44
+    mergedPR: 45
     openPR: 1
     closedIssue: 70
-    openIssue: 1
-    commit: 147
+    openIssue: 2
+    commit: 149
   last60d:
     since: 2026-07-11
     release: 12
-    mergedPR: 94
+    mergedPR: 95
     openPR: 1
     closedIssue: 193
-    openIssue: 1
-    commit: 472
+    openIssue: 2
+    commit: 474
   last90d:
     since: 2026-06-11
     release: 17
-    mergedPR: 108
+    mergedPR: 109
     openPR: 1
     closedIssue: 270
-    openIssue: 1
-    commit: 587
+    openIssue: 2
+    commit: 589
   last180d:
     since: 2026-03-13
     release: 34
-    mergedPR: 245
+    mergedPR: 246
     openPR: 1
     closedIssue: 595
-    openIssue: 1
-    commit: 1175
+    openIssue: 2
+    commit: 1177
   last360d:
     since: 2025-09-14
     release: 63
-    mergedPR: 374
+    mergedPR: 375
     openPR: 1
     closedIssue: 955
-    openIssue: 1
-    commit: 2838
+    openIssue: 2
+    commit: 2840
   last720d:
     since: 2024-09-19
     release: 63
-    mergedPR: 374
+    mergedPR: 375
     openPR: 1
     closedIssue: 955
-    openIssue: 1
-    commit: 3115
+    openIssue: 2
+    commit: 3117
 total:
   release: 63
-  mergedPR: 374
+  mergedPR: 375
   openPR: 1
   closedIssue: 955
-  openIssue: 1
-  commit: 3115
+  openIssue: 2
+  commit: 3117
 ---
 path: /home/runner/.x-repo/github.com/tw93/Mole
-collectedAt: 2026-09-09T05:43:16Z
+collectedAt: 2026-09-09T20:00:43Z
 loc:
   Sh:
-    code: 39787
-    comments: 5379
-    blanks: 4785
+    code: 40171
+    comments: 5386
+    blanks: 4795
     files: 64
   Go:
     code: 20413
@@ -99,15 +99,15 @@ loc:
     blanks: 2550
     files: 61
   Svg:
-    code: 1488
+    code: 1499
     comments: 1
     blanks: 0
     files: 1
   Python:
-    code: 281
-    comments: 10
-    blanks: 31
-    files: 2
+    code: 432
+    comments: 19
+    blanks: 58
+    files: 3
   Bash:
     code: 269
     comments: 21
@@ -120,8 +120,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 1082
-    blanks: 378
+    comments: 1083
+    blanks: 379
     files: 8
   Text:
     code: 0
@@ -129,10 +129,10 @@ loc:
     blanks: 13
     files: 1
 total:
-  code: 62372
-  comments: 7744
-  blanks: 7827
-  files: 140
+  code: 62918
+  comments: 7761
+  blanks: 7865
+  files: 141
 ---
 
 ---
