@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 3747504,
       "digest": "sha256:9113bfdc226e33eb3ccea548ab0e6012eda032c47ee33d538dd0609acd1b997c",
-      "download_count": 1275,
+      "download_count": 1335,
       "created_at": "2026-08-30T02:08:12Z",
       "updated_at": "2026-08-30T02:08:13Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.53.0/analyze-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3620258,
       "digest": "sha256:637841dda6a56523af65c2befc4628732200cfe994476b38fde67b17432a0afb",
-      "download_count": 3499,
+      "download_count": 3704,
       "created_at": "2026-08-30T02:08:12Z",
       "updated_at": "2026-08-30T02:08:13Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.53.0/analyze-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3197762,
       "digest": "sha256:8f88739f65d2bd58aa8713befabe65917be12f2f2e13e366eebbf4ba5a471237",
-      "download_count": 160,
+      "download_count": 170,
       "created_at": "2026-08-30T02:08:12Z",
       "updated_at": "2026-08-30T02:08:13Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.53.0/binaries-darwin-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3010562,
       "digest": "sha256:3193b2322039680bf617f2e6794f85fbf1cad4992cc2457dd23c66e25b59db10",
-      "download_count": 256,
+      "download_count": 270,
       "created_at": "2026-08-30T02:08:12Z",
       "updated_at": "2026-08-30T02:08:12Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.53.0/binaries-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 536,
       "digest": "sha256:faa5212910f42765a4e9707de6b924bb097a47968a7a562d4af46ddefcea05e0",
-      "download_count": 4191,
+      "download_count": 4437,
       "created_at": "2026-08-30T02:08:12Z",
       "updated_at": "2026-08-30T02:08:12Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.53.0/SHA256SUMS"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4139040,
       "digest": "sha256:0b310ecc008297ce227813aa077ad3007e7aa1eb86fb7f0daf9cd175e667ebb6",
-      "download_count": 1014,
+      "download_count": 1058,
       "created_at": "2026-08-30T02:08:12Z",
       "updated_at": "2026-08-30T02:08:13Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.53.0/status-darwin-amd64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4065586,
       "digest": "sha256:46b8aded69d013d00f858908b02d35ea2d39087ccc474bcb8c2e65988fe0028e",
-      "download_count": 3125,
+      "download_count": 3308,
       "created_at": "2026-08-30T02:08:12Z",
       "updated_at": "2026-08-30T02:08:13Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.53.0/status-darwin-arm64"
@@ -294,8 +294,8 @@
   "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. **Clean and Purge are faster without widening deletion scope**: independent scans now run concurrently, stray home-level artifact folders such as `node_modules` are no longer mistaken for projects, and live container cache trees stay protected.\n2. **Safety probe cancellation now stops the whole cleanup**: if a live-cache or SQLite check times out or is interrupted, Mole preserves the current target, stops later cleanup sections, and returns the failure instead of continuing with partial evidence.\n3. **Analyze and Status report fresher, clearer system state**: Analyze shows the local Time Machine snapshot count and explains why snapshot-only space is excluded from directory totals; Status adds zombie process diagnostics and retains the last process sample as stale when a refresh fails.\n4. **Everyday edges are quieter and clearer**: CLT-only Macs no longer warn about a missing `simctl`, compressed menus keep the Space key hint, whitelist guidance accepts any path, and the `x/text` security update is included.\n\n### 更新日志\n\n1. **Clean 和 Purge 更快，但不会扩大删除范围**：互不依赖的扫描现在可以并发执行；用户目录下误放的 `node_modules` 等构建产物不会再被当成项目；正在使用的容器缓存目录也会继续受到保护。\n2. **安全探测被取消时会停止整次清理**：如果活跃缓存或 SQLite 检查超时、被中断，Mole 会保留当前目标，停止后续清理阶段，并返回失败，不会依据不完整证据继续执行。\n3. **Analyze 和 Status 展示的系统状态更及时、更清楚**：Analyze 会显示本地 Time Machine 快照数量，并说明为何目录统计不包含仅由快照占用的空间；Status 新增僵尸进程诊断，完整刷新失败时会保留上一份进程数据并标记为过期。\n4. **日常使用中的细节更安静、更明确**：仅安装 Command Line Tools 的 Mac 不再提示缺少 `simctl`，紧凑菜单会保留 Space 键提示，白名单说明支持任意路径，同时包含 `x/text` 安全更新。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @r266-tech · @M-Hassan-Raza · @anupamme · @devcsb · @TyceHerrman · @ilhanpaksoy · @mitchmalone · @grevgeny · @Veritas-7.\n\n### Mole Mac App\n\nPrefer a GUI? [Mole Mac App](https://mole.fit/) brings cleaning, app management, maintenance, disk analysis, and live system status into one native app, with review before deletion and a customizable menu bar HUD. It is $19 once, with lifetime updates and a 14-day refund. [Download and try it](https://mole.fit/download). The CLI stays free and open source.\n",
   "reactions": {
     "url": "https://api.github.com/repos/tw93/Mole/releases/379156986/reactions",
-    "total_count": 33,
-    "+1": 15,
+    "total_count": 34,
+    "+1": 16,
     "-1": 0,
     "laugh": 1,
     "hooray": 5,

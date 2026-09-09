@@ -1,0 +1,138 @@
+about:
+  description: "🐹 Clean, uninstall, analyze, optimize, and monitor your Mac. Free open-source CLI, plus a native Mac app."
+  license: GPL-3.0
+  homepage: https://mole.fit/
+  head: 08d7f1b
+  archived: false
+  latestVersion: "V1.53.0"
+  latestRelease: "V1.53.0"
+  latestPrerelease: "v1.30.0-windows"
+  collectedAt: 2026-09-09T05:42:53Z
+timeline:
+  created: 2025-09-23
+  lastCommit: 2026-09-08
+  lastVersion: 2026-08-30
+  lastRelease: 2026-08-30
+  lastPrerelease: 2026-08-16
+popularity:
+  star: 66650
+  watcher: 150
+  fork: 2347
+  release: 63
+  contributor: 133
+  pullRequest: 526
+  issue: 956
+language:
+  Shell: 3844071
+  Go: 690138
+  Python: 12199
+  Makefile: 2235
+totalBytes: 4548643
+recent:
+  last30d:
+    since: 2026-08-10
+    release: 4
+    mergedPR: 44
+    openPR: 1
+    closedIssue: 70
+    openIssue: 1
+    commit: 147
+  last60d:
+    since: 2026-07-11
+    release: 12
+    mergedPR: 94
+    openPR: 1
+    closedIssue: 193
+    openIssue: 1
+    commit: 472
+  last90d:
+    since: 2026-06-11
+    release: 17
+    mergedPR: 108
+    openPR: 1
+    closedIssue: 270
+    openIssue: 1
+    commit: 587
+  last180d:
+    since: 2026-03-13
+    release: 34
+    mergedPR: 245
+    openPR: 1
+    closedIssue: 595
+    openIssue: 1
+    commit: 1175
+  last360d:
+    since: 2025-09-14
+    release: 63
+    mergedPR: 374
+    openPR: 1
+    closedIssue: 955
+    openIssue: 1
+    commit: 2838
+  last720d:
+    since: 2024-09-19
+    release: 63
+    mergedPR: 374
+    openPR: 1
+    closedIssue: 955
+    openIssue: 1
+    commit: 3115
+total:
+  release: 63
+  mergedPR: 374
+  openPR: 1
+  closedIssue: 955
+  openIssue: 1
+  commit: 3115
+---
+path: /home/runner/.x-repo/github.com/tw93/Mole
+collectedAt: 2026-09-09T05:43:16Z
+loc:
+  Sh:
+    code: 39787
+    comments: 5379
+    blanks: 4785
+    files: 64
+  Go:
+    code: 20413
+    comments: 1108
+    blanks: 2550
+    files: 61
+  Svg:
+    code: 1488
+    comments: 1
+    blanks: 0
+    files: 1
+  Python:
+    code: 281
+    comments: 10
+    blanks: 31
+    files: 2
+  Bash:
+    code: 269
+    comments: 21
+    blanks: 41
+    files: 2
+  Makefile:
+    code: 47
+    comments: 10
+    blanks: 17
+    files: 1
+  Markdown:
+    code: 0
+    comments: 1082
+    blanks: 378
+    files: 8
+  Text:
+    code: 0
+    comments: 116
+    blanks: 13
+    files: 1
+total:
+  code: 62372
+  comments: 7744
+  blanks: 7827
+  files: 140
+---
+
+---
