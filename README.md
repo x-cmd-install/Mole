@@ -38,22 +38,22 @@ Total: **62,704** lines of code across **131** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 66,855 · **Forks**: 2,350 · **Open issues**: 960 · **Contributors**: 134
+- **Stars**: 66,873 · **Forks**: 2,349 · **Open issues**: 960 · **Contributors**: 133
 
 ## Totals (cumulative)
 
-- **Releases**: 63 · **Merged PRs**: 376 · **Open PRs**: 0 · **Closed issues**: 955 · **Open issues**: 5 · **Commits**: 3120
+- **Releases**: 63 · **Merged PRs**: 375 · **Open PRs**: 0 · **Closed issues**: 959 · **Open issues**: 1 · **Commits**: 3120
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 4 | 44 | 0 | 67 | 5 | 152 |
-| last60d | 2026-07-13 | 11 | 86 | 0 | 180 | 5 | 477 |
-| 90d | 2026-06-13 | 17 | 109 | 0 | 266 | 5 | 592 |
-| last180d | 2026-03-15 | 34 | 247 | 0 | 588 | 5 | 1180 |
-| 360d | 2025-09-16 | 63 | 376 | 0 | 955 | 5 | 2843 |
-| last720d | 2024-09-21 | 63 | 376 | 0 | 955 | 5 | 3120 |
+| 30d | 2026-08-13 | 4 | 43 | 0 | 67 | 1 | 152 |
+| last60d | 2026-07-14 | 11 | 86 | 0 | 184 | 1 | 477 |
+| 90d | 2026-06-14 | 16 | 108 | 0 | 265 | 1 | 592 |
+| last180d | 2026-03-16 | 34 | 244 | 0 | 588 | 1 | 1180 |
+| 360d | 2025-09-17 | 63 | 375 | 0 | 959 | 1 | 2843 |
+| last720d | 2024-09-22 | 63 | 375 | 0 | 959 | 1 | 3120 |
 
 ## Release assets
 
@@ -76,4 +76,4 @@ Install metadata for Mole lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T19:25:27Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T05:34:11Z._
