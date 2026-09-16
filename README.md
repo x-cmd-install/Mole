@@ -33,27 +33,27 @@ Total: **62,673** lines of code across **131** files in the top 5 languages.
 ## Release
 
 - **Latest**: `V1.54.0` (2026-09-13)
-- **Last commit**: 2026-09-14
+- **Last commit**: 2026-09-15
 - **Assets in release**: 7
 
 ## Popularity
 
-- **Stars**: 67,190 · **Forks**: 2,358 · **Open issues**: 972 · **Contributors**: 133
+- **Stars**: 67,428 · **Forks**: 2,372 · **Open issues**: 976 · **Contributors**: 133
 
 ## Totals (cumulative)
 
-- **Releases**: 64 · **Merged PRs**: 375 · **Open PRs**: 3 · **Closed issues**: 968 · **Open issues**: 4 · **Commits**: 3139
+- **Releases**: 64 · **Merged PRs**: 377 · **Open PRs**: 2 · **Closed issues**: 972 · **Open issues**: 4 · **Commits**: 3142
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 5 | 41 | 3 | 73 | 4 | 150 |
-| last60d | 2026-07-17 | 12 | 85 | 3 | 186 | 4 | 457 |
-| 90d | 2026-06-17 | 17 | 107 | 3 | 267 | 4 | 594 |
-| last180d | 2026-03-19 | 35 | 240 | 3 | 586 | 4 | 1147 |
-| 360d | 2025-09-20 | 64 | 375 | 3 | 968 | 4 | 2852 |
-| last720d | 2024-09-25 | 64 | 375 | 3 | 968 | 4 | 3139 |
+| 30d | 2026-08-17 | 3 | 42 | 2 | 77 | 4 | 153 |
+| last60d | 2026-07-18 | 12 | 86 | 2 | 189 | 4 | 460 |
+| 90d | 2026-06-18 | 16 | 109 | 2 | 267 | 4 | 597 |
+| last180d | 2026-03-20 | 35 | 239 | 2 | 583 | 4 | 1150 |
+| 360d | 2025-09-21 | 64 | 377 | 2 | 972 | 4 | 2855 |
+| last720d | 2024-09-26 | 64 | 377 | 2 | 972 | 4 | 3142 |
 
 ## Release assets
 
@@ -76,4 +76,4 @@ Install metadata for Mole lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T05:57:37Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T05:56:44Z._
