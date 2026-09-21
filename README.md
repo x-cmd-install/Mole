@@ -14,11 +14,11 @@ x install Mole
 
 ## Code insight
 
-Total: **62,766** lines of code across **131** files in the top 5 languages.
+Total: **62,809** lines of code across **131** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Sh | 40,077 | 5,481 | 4,780 | 64 |
+| Sh | 40,120 | 5,510 | 4,781 | 64 |
 | Go | 20,382 | 1,115 | 2,548 | 61 |
 | Svg | 1,532 | 1 | 0 | 1 |
 | Python | 432 | 19 | 58 | 3 |
@@ -38,22 +38,22 @@ Total: **62,766** lines of code across **131** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 67,841 · **Forks**: 2,386 · **Open issues**: 990 · **Contributors**: 141
+- **Stars**: 67,929 · **Forks**: 2,390 · **Open issues**: 994 · **Contributors**: 141
 
 ## Totals (cumulative)
 
-- **Releases**: 65 · **Merged PRs**: 381 · **Open PRs**: 0 · **Closed issues**: 989 · **Open issues**: 1 · **Commits**: 3178
+- **Releases**: 65 · **Merged PRs**: 381 · **Open PRs**: 0 · **Closed issues**: 990 · **Open issues**: 4 · **Commits**: 3189
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 4 | 43 | 0 | 86 | 1 | 150 |
-| last60d | 2026-07-22 | 12 | 83 | 0 | 194 | 1 | 404 |
-| 90d | 2026-06-22 | 16 | 110 | 0 | 279 | 1 | 619 |
-| last180d | 2026-03-24 | 34 | 236 | 0 | 586 | 1 | 1147 |
-| 360d | 2025-09-25 | 65 | 381 | 0 | 989 | 1 | 2857 |
-| last720d | 2024-09-30 | 65 | 381 | 0 | 989 | 1 | 3178 |
+| 30d | 2026-08-22 | 4 | 43 | 0 | 86 | 4 | 161 |
+| last60d | 2026-07-23 | 12 | 83 | 0 | 192 | 4 | 415 |
+| 90d | 2026-06-23 | 16 | 109 | 0 | 274 | 4 | 630 |
+| last180d | 2026-03-25 | 34 | 235 | 0 | 586 | 4 | 1158 |
+| 360d | 2025-09-26 | 65 | 381 | 0 | 990 | 4 | 2868 |
+| last720d | 2024-10-01 | 65 | 381 | 0 | 990 | 4 | 3189 |
 
 ## Release assets
 
@@ -76,4 +76,4 @@ Install metadata for Mole lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T05:45:48Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T05:57:26Z._
