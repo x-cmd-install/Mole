@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4006544,
       "digest": "sha256:b9a666accdf6d3bdea5e0699b7b56313e14f44e7b208611ebd4c87f8ae07165e",
-      "download_count": 170,
+      "download_count": 290,
       "created_at": "2026-09-20T01:55:38Z",
       "updated_at": "2026-09-20T01:55:38Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.55.0/analyze-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3810914,
       "digest": "sha256:2b01aa4e89a4f51e8277ce54b96e0e9ac1886e169c9c3ed4841cdee1fc775d32",
-      "download_count": 516,
+      "download_count": 949,
       "created_at": "2026-09-20T01:55:38Z",
       "updated_at": "2026-09-20T01:55:38Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.55.0/analyze-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3363810,
       "digest": "sha256:b1e129af74a414c03620c73b8ceee990565b7401b1991f7417cfb727fac3fa43",
-      "download_count": 32,
+      "download_count": 56,
       "created_at": "2026-09-20T01:55:38Z",
       "updated_at": "2026-09-20T01:55:38Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.55.0/binaries-darwin-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3129737,
       "digest": "sha256:b963404f7999318885a86c0d4d4ab5502bd5e35cc7477eaa5b86599402076421",
-      "download_count": 36,
+      "download_count": 65,
       "created_at": "2026-09-20T01:55:38Z",
       "updated_at": "2026-09-20T01:55:38Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.55.0/binaries-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 536,
       "digest": "sha256:ef1c8661a44def3cb2925dfaa2a7f48454d29123c31c3087bfb4d5175fcec197",
-      "download_count": 650,
+      "download_count": 1154,
       "created_at": "2026-09-20T01:55:38Z",
       "updated_at": "2026-09-20T01:55:38Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.55.0/SHA256SUMS"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4326880,
       "digest": "sha256:3e7359879d11da4ab9d023e9c11289e318d3418da2f171649d3097186834e709",
-      "download_count": 160,
+      "download_count": 255,
       "created_at": "2026-09-20T01:55:38Z",
       "updated_at": "2026-09-20T01:55:38Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.55.0/status-darwin-amd64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4200882,
       "digest": "sha256:86c8abb3f97548ac4989c457321afacb6ead2de20958ac371fa656713b21e6c0",
-      "download_count": 478,
+      "download_count": 871,
       "created_at": "2026-09-20T01:55:38Z",
       "updated_at": "2026-09-20T01:55:38Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.55.0/status-darwin-arm64"
@@ -294,8 +294,8 @@
   "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. **Clean leaves Homebrew downloads that are still transferring alone**: a running `brew fetch` used to lose its in-flight cask downloads and its own lock files, and Homebrew's lock directory is no longer swept at all.\n2. **A slow check no longer cancels the rest of the run**: a Spotlight probe, a Large files sizing pass, or a simulator runtime review that times out now skips that item and carries on, and routine timeout notes stay out of the summary.\n3. **Clean reaches Notion's workspace cache**: only the cache storage is swept, the script cache and databases are left alone, and the whole family is skipped while Notion is running.\n4. **Uninstall names what it could not verify**: an incomplete scan, a failed cask lookup, and undetermined ownership each arrive with the check to run, and selector rows stay on one line in an 80-column terminal.\n5. **`mo` works when it is invoked through a symlink**: the launcher resolves the real directory behind the link, so it still finds its own libraries.\n\n### 更新日志\n\n1. **Clean 不再删除正在下载的 Homebrew 文件**：之前正在跑的 `brew fetch` 会丢掉在途的 cask 下载和它自己持有的锁，Homebrew 的锁目录现在完全不再清理。\n2. **某一步检查超时不再中断整轮清理**：Spotlight 探测、大文件体积统计和模拟器运行时检查超时后只跳过这一项继续往下走，常规超时说明也不再进入结果汇总。\n3. **Clean 支持 Notion 工作区缓存**：只清缓存存储，保留脚本缓存和数据库，Notion 运行期间整体跳过。\n4. **Uninstall 会说明哪些没能确认**：预检没扫完、cask 查询失败、归属无法判定，都会连同该跑的检查命令一起给出，选择列表在 80 列终端里也不再折行。\n5. **通过软链调用 `mo` 时能正常工作**：启动器会解析出软链背后的真实目录，因此仍能找到自己的依赖库。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @ishaanko · @xtnntn · @huangy7 · @idhyt · @jiji262 · @iammike2 · @TarGz · @TyceHerrman.\n\n### Mole Mac App\n\nPrefer a GUI? [Mole Mac App](https://mole.fit/) brings cleaning, app management, maintenance, disk analysis, and live system status into one native app, with review before deletion and a customizable menu bar HUD. It is $19 once, with lifetime updates and a 14-day refund. [Download and try it](https://mole.fit/download). The CLI stays free and open source.\n",
   "reactions": {
     "url": "https://api.github.com/repos/tw93/Mole/releases/392280483/reactions",
-    "total_count": 17,
-    "+1": 7,
+    "total_count": 19,
+    "+1": 9,
     "-1": 0,
     "laugh": 2,
     "hooray": 3,
