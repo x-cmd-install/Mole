@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4006544,
       "digest": "sha256:cf91aaa3e8bf285ecd461fa987137e08ca689d3318e2d3ffb039aa5cdb532527",
-      "download_count": 0,
+      "download_count": 143,
       "created_at": "2026-09-25T05:30:40Z",
       "updated_at": "2026-09-25T05:30:40Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.0/analyze-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3810914,
       "digest": "sha256:a8639f3968876744fadea3d38ae28efdd38bda074cd259ee021a194b05013b5f",
-      "download_count": 0,
+      "download_count": 420,
       "created_at": "2026-09-25T05:30:40Z",
       "updated_at": "2026-09-25T05:30:40Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.0/analyze-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3363186,
       "digest": "sha256:15495ddfdae716e13635227758b61cfa4b5f22350a7192436ab9486b71d69f38",
-      "download_count": 0,
+      "download_count": 15,
       "created_at": "2026-09-25T05:30:40Z",
       "updated_at": "2026-09-25T05:30:40Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.0/binaries-darwin-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3129198,
       "digest": "sha256:a357fed26305e00e73d9dce87a7bd4edb16797ff3a88f4a26900df78bf35be38",
-      "download_count": 0,
+      "download_count": 20,
       "created_at": "2026-09-25T05:30:40Z",
       "updated_at": "2026-09-25T05:30:40Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.0/binaries-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 536,
       "digest": "sha256:51d3842a258b4f4207920b9fea5a15a79b936640f7fcdf4600616cdf83787920",
-      "download_count": 0,
+      "download_count": 517,
       "created_at": "2026-09-25T05:30:40Z",
       "updated_at": "2026-09-25T05:30:40Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.0/SHA256SUMS"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4326880,
       "digest": "sha256:381f3235773349763e18f8899b828e329864aaf19a4542c2b6a6303b2e991900",
-      "download_count": 0,
+      "download_count": 118,
       "created_at": "2026-09-25T05:30:40Z",
       "updated_at": "2026-09-25T05:30:40Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.0/status-darwin-amd64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4200882,
       "digest": "sha256:08f34ba3aca415304a9750ed91bcda7d100f82e0d575198853b36088e2ad77b7",
-      "download_count": 0,
+      "download_count": 397,
       "created_at": "2026-09-25T05:30:40Z",
       "updated_at": "2026-09-25T05:30:40Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.0/status-darwin-arm64"
@@ -294,15 +294,15 @@
   "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. **Optimize is gentler**: it no longer rebuilds LaunchServices, which dropped VPN tunnels and sent Siri re-indexing, and it only reports LaunchAgents whose program is missing instead of deleting them.\n2. **Clean leaves Gemini's Google state alone**: deleting it while Gemini ran could start a disk write loop of about 50 MB/s.\n3. **Homebrew old versions are cleaned and previewed**: `mo clean` runs `brew cleanup` even with a small download cache, and `mo clean --dry-run` lists each version it would remove.\n4. **A slow check no longer stops the whole run**: a timed-out size or SQLite check now affects only that item.\n5. **Previews and totals count only what goes**: nested items count once, Docker images in use no longer read as reclaimable, and tiny build-artifact hints stay quiet.\n6. **Smaller fixes**: idle Brave Nightly caches are cleaned while another channel runs, VS Code extension cleanup works on macOS 15 again, `mo remove` keeps a custom config directory, and Status shows one more busy process.\n\n### 更新日志\n\n1. **Optimize 更克制**：不再重建 LaunchServices，避免 VPN 断线和 Siri 反复索引，程序缺失的 LaunchAgent 也改为只报告不删除。\n2. **Clean 不再动 Gemini 的 Google 身份数据**：Gemini 运行时删掉它们会触发每秒约 50 MB 的持续写盘。\n3. **Homebrew 旧版本能清理也能预览**：下载缓存很小时 `mo clean` 也会执行 `brew cleanup`，`mo clean --dry-run` 会逐个列出将删除的版本。\n4. **单项检查超时不再中断整轮清理**：体积或 SQLite 检查超时只影响这一项，其余照常进行。\n5. **预览和汇总只算真正会清掉的部分**：嵌套项只算一次，正在使用的 Docker 镜像不再算作可回收，很小的构建产物也不再提示。\n6. **其他细节修复**：另一个 Brave 渠道开着时也能清理空闲的 Nightly 缓存，VS Code 旧扩展清理在 macOS 15 上恢复正常，`mo remove` 会保留自定义配置目录，Status 进程卡片多显示一个进程。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @QianyeSu · @TyceHerrman · @hawkff · @jsiu93 · @reorx · @md786-dotcom · @OPesicka · @dominionthedev.\n\n### Mole Mac App\n\nPrefer a GUI? [Mole Mac App](https://mole.fit/) brings cleaning, app management, maintenance, disk analysis, and live system status into one native app, with review before deletion and a customizable menu bar HUD. It is $19 once, with lifetime updates and a 14-day refund. [Download and try it](https://mole.fit/download). The CLI stays free and open source.\n",
   "reactions": {
     "url": "https://api.github.com/repos/tw93/Mole/releases/396333074/reactions",
-    "total_count": 6,
-    "+1": 1,
+    "total_count": 31,
+    "+1": 12,
     "-1": 0,
-    "laugh": 1,
-    "hooray": 1,
+    "laugh": 3,
+    "hooray": 4,
     "confused": 0,
-    "heart": 1,
-    "rocket": 1,
-    "eyes": 1
+    "heart": 5,
+    "rocket": 5,
+    "eyes": 2
   },
   "mentions_count": 8
 }
