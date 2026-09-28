@@ -14,11 +14,11 @@ x install Mole
 
 ## Code insight
 
-Total: **63,838** lines of code across **134** files in the top 5 languages.
+Total: **63,998** lines of code across **134** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Sh | 40,291 | 5,634 | 4,789 | 64 |
+| Sh | 40,451 | 5,659 | 4,791 | 64 |
 | Go | 21,036 | 1,158 | 2,559 | 61 |
 | Svg | 1,576 | 1 | 0 | 1 |
 | Python | 531 | 21 | 83 | 5 |
@@ -38,22 +38,22 @@ Total: **63,838** lines of code across **134** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 68,533 · **Forks**: 2,419 · **Open issues**: 1,007 · **Contributors**: 145
+- **Stars**: 68,610 · **Forks**: 2,434 · **Open issues**: 1,007 · **Contributors**: 145
 
 ## Totals (cumulative)
 
-- **Releases**: 66 · **Merged PRs**: 389 · **Open PRs**: 0 · **Closed issues**: 1007 · **Open issues**: 0 · **Commits**: 3244
+- **Releases**: 66 · **Merged PRs**: 391 · **Open PRs**: 1 · **Closed issues**: 1007 · **Open issues**: 0 · **Commits**: 3258
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 4 | 43 | 0 | 88 | 0 | 144 |
-| last60d | 2026-07-29 | 11 | 78 | 0 | 178 | 0 | 344 |
-| 90d | 2026-06-29 | 17 | 113 | 0 | 276 | 0 | 634 |
-| last180d | 2026-03-31 | 34 | 238 | 0 | 592 | 0 | 1163 |
-| 360d | 2025-10-02 | 65 | 389 | 0 | 1006 | 0 | 2792 |
-| last720d | 2024-10-07 | 66 | 389 | 0 | 1007 | 0 | 3244 |
+| 30d | 2026-08-29 | 4 | 43 | 1 | 86 | 0 | 157 |
+| last60d | 2026-07-30 | 11 | 80 | 1 | 177 | 0 | 357 |
+| 90d | 2026-06-30 | 16 | 115 | 1 | 269 | 0 | 647 |
+| last180d | 2026-04-01 | 34 | 238 | 1 | 590 | 0 | 1176 |
+| 360d | 2025-10-03 | 65 | 391 | 1 | 1003 | 0 | 2805 |
+| last720d | 2024-10-08 | 66 | 391 | 1 | 1007 | 0 | 3258 |
 
 ## Release assets
 
@@ -76,4 +76,4 @@ Install metadata for Mole lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T06:03:04Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T06:09:21Z._
