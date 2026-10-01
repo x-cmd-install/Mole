@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4010544,
       "digest": "sha256:7f71daa13b6fae3d6fe553306b6c2560a1733e34c3ced8ac9c69ec044858b501",
-      "download_count": 249,
+      "download_count": 386,
       "created_at": "2026-09-28T08:37:46Z",
       "updated_at": "2026-09-28T08:37:47Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.1/analyze-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3827314,
       "digest": "sha256:a8f40372e87a724f95ac23ae3d90b930b945b87d3ad3b0204db39cb472d2fbbc",
-      "download_count": 844,
+      "download_count": 1203,
       "created_at": "2026-09-28T08:37:46Z",
       "updated_at": "2026-09-28T08:37:47Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.1/analyze-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3365992,
       "digest": "sha256:5cb414dbd24356766ce0cada5e67525ea7ae68e1da0a42cd0e78baf50b14a78b",
-      "download_count": 39,
+      "download_count": 53,
       "created_at": "2026-09-28T08:37:46Z",
       "updated_at": "2026-09-28T08:37:47Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.1/binaries-darwin-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3130636,
       "digest": "sha256:2c95402bf7dc946fe565ae4448c41b1cc86d0d2a0d1ff14a9ad82adfeaa625a4",
-      "download_count": 65,
+      "download_count": 86,
       "created_at": "2026-09-28T08:37:46Z",
       "updated_at": "2026-09-28T08:37:47Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.1/binaries-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 536,
       "digest": "sha256:7c2e5721366104b4783084775b8b79bb01d97ee79a74d557c9c96b7d722c8e4a",
-      "download_count": 1007,
+      "download_count": 1482,
       "created_at": "2026-09-28T08:37:46Z",
       "updated_at": "2026-09-28T08:37:47Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.1/SHA256SUMS"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4327056,
       "digest": "sha256:7b71a00cfa3988de3ba8f568c5633eb79f2e48fd78ae010c58cc8d14c4ae6946",
-      "download_count": 209,
+      "download_count": 327,
       "created_at": "2026-09-28T08:37:46Z",
       "updated_at": "2026-09-28T08:37:47Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.1/status-darwin-amd64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4201058,
       "digest": "sha256:7a6b7cab1f5f84f6037eaa34230b5f1603b4ba4e09e47ae0f3ef4e1a799dc8b6",
-      "download_count": 780,
+      "download_count": 1123,
       "created_at": "2026-09-28T08:37:46Z",
       "updated_at": "2026-09-28T08:37:47Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.56.1/status-darwin-arm64"
@@ -294,14 +294,14 @@
   "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. **Uninstall finishes again**: a slow login item or LaunchServices step no longer stops the run with only `Uninstalling X...` left on screen, and any real stop now names the app and the step.\n2. **Uninstall works on managed Macs**: when Mole cannot check for other copies of an app, it removes only the app you picked and leaves shared leftovers in place instead of refusing.\n3. **Installer cleanup is more careful**: an unreadable folder or ZIP no longer hides the readable installers, each file is checked again right before removal, and a timeout now shows what was removed and where it stopped.\n4. **Analyze shows what it could not measure**: folders it cannot fully read are marked partial or unknown instead of 0, and `mo analyze --json` reports this in `scan_status`.\n5. **Clean lists more large payloads for review**: Android emulators and system images, the Hugging Face cache, mise installs, and Gradle caches now show their size, and Mole never deletes them.\n6. **Status stops retrying too fast**: after a failed probe, the dashboard and `mo status --watch` wait before collecting again and keep the measurements that did succeed.\n\n### 更新日志\n\n1. **卸载能正常走完**：登录项或 LaunchServices 这类步骤变慢时，不再中途停下只剩 `Uninstalling X...`，真正停下时也会说明是哪个 app、哪一步。\n2. **企业管理的 Mac 也能卸载**：Mole 无法检查同一 app 的其他副本时，改为只删除你选中的 app，共享残留保持不动，不再直接拒绝。\n3. **安装包清理更稳妥**：某个文件夹或 ZIP 读不了时不再连带隐藏可读的安装包，删除前会再核对一次文件，超时时也会显示已删除的内容和停在哪个文件。\n4. **Analyze 会标出没能测完的部分**：读不全的文件夹显示为部分或未知，不再显示为 0，`mo analyze --json` 通过 `scan_status` 给出同样的信息。\n5. **Clean 提示更多大文件供你自行处理**：Android 模拟器和系统镜像、Hugging Face 缓存、mise 安装的运行时和 Gradle 缓存会显示体积，Mole 不会删除它们。\n6. **Status 不再频繁重试**：探测失败后，仪表盘和 `mo status --watch` 会等一段时间再采集，已经成功的数据也会保留。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @M-Hassan-Raza · @candidosales · @ilypopv.\n\n### Mole Mac App\n\nPrefer a GUI? [Mole Mac App](https://mole.fit/) brings cleaning, app management, maintenance, disk analysis, and live system status into one native app, with review before deletion and a customizable menu bar HUD. It is $19 once, with free updates and a 14-day refund. [Download and try it](https://mole.fit/download). The CLI stays free and open source.\n",
   "reactions": {
     "url": "https://api.github.com/repos/tw93/Mole/releases/398071553/reactions",
-    "total_count": 32,
+    "total_count": 33,
     "+1": 12,
     "-1": 0,
     "laugh": 2,
     "hooray": 4,
     "confused": 0,
     "heart": 9,
-    "rocket": 4,
+    "rocket": 5,
     "eyes": 1
   },
   "mentions_count": 3
