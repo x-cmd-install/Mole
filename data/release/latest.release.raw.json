@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4022992,
       "digest": "sha256:cff7d9da8bd18cb3364d566186944b5b14b01e21e5bb4a3d61579f553ea39ad7",
-      "download_count": 158,
+      "download_count": 299,
       "created_at": "2026-10-03T06:45:00Z",
       "updated_at": "2026-10-03T06:45:01Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.57.0/analyze-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3827474,
       "digest": "sha256:62c6b5076349081a34e60256a1471979f600d74d8f4990745a37d30d6faa00e1",
-      "download_count": 496,
+      "download_count": 1142,
       "created_at": "2026-10-03T06:45:00Z",
       "updated_at": "2026-10-03T06:45:01Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.57.0/analyze-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3373817,
       "digest": "sha256:79651c0d9e7502ea55155db11605bc8405efce48314deb0318485433a811a0c7",
-      "download_count": 23,
+      "download_count": 35,
       "created_at": "2026-10-03T06:45:00Z",
       "updated_at": "2026-10-03T06:45:01Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.57.0/binaries-darwin-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3141434,
       "digest": "sha256:29cbe9dcdc13199f9d03d0105066abc3562547eff890e2311bef5334230cc32e",
-      "download_count": 42,
+      "download_count": 79,
       "created_at": "2026-10-03T06:45:00Z",
       "updated_at": "2026-10-03T06:45:01Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.57.0/binaries-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 536,
       "digest": "sha256:ab45ff0a12acd896d76991ad71ac2dcf4b1e58cf8fbccdb25390844ecbec1a72",
-      "download_count": 602,
+      "download_count": 1146,
       "created_at": "2026-10-03T06:45:00Z",
       "updated_at": "2026-10-03T06:45:01Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.57.0/SHA256SUMS"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4331200,
       "digest": "sha256:3671a6848bad6a6ceb0c8af7ee00b8cac800c914ec0e0607f586623631c07f0b",
-      "download_count": 133,
+      "download_count": 248,
       "created_at": "2026-10-03T06:45:00Z",
       "updated_at": "2026-10-03T06:45:01Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.57.0/status-darwin-amd64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4201106,
       "digest": "sha256:6c6eff7dfb26f6fba15f1444f5d28adf581dcf318d229ee8450f776a3fbfdd4d",
-      "download_count": 471,
+      "download_count": 903,
       "created_at": "2026-10-03T06:45:00Z",
       "updated_at": "2026-10-03T06:45:01Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.57.0/status-darwin-arm64"
@@ -294,8 +294,8 @@
   "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. **More reliable app uninstall**: Verified internal Time Machine snapshot folders no longer prevent app-copy checks from finishing, background items stay tied to the selected app, and retained-file reasons, Finder permission refusals, and reclaimed-space totals are reported more accurately.\n2. **Clean protects renv and uncertain app caches**: Saved whitelists no longer weaken renv protection, app caches stay untouched when running state is unknown, and a read-only probe timeout does not stop unrelated cleanup.\n3. **Purge spends less time waiting on slow checks**: A single slow activity check no longer holds up the whole batch, cancellation stops background checks, and filtering failures no longer repeat discovery.\n4. **Analyze refreshes changed sizes**: After deletion or a directory refresh, Analyze updates affected folder and overview totals instead of restoring outdated sizes from earlier scans.\n5. **Status handles VPN traffic and partial JSON**: Network totals use the active default-route tunnel without counting its carrier twice, and `mo status --json` preserves usable measurements when one collector fails.\n6. **Developer space and cache cleanup**: FVM Flutter SDKs and Codex worktrees get read-only size rows, worktree listings avoid duplicates, and VS Code and Cursor extension download caches are cleaned again.\n7. **History separates simultaneous commands**: Overlapping runs of different commands keep their own operations and totals instead of mixing into one history entry.\n8. **Clearer terminal progress**: Loading uses a centered 2×2 shape, real cleanup results use the same capacity colors as previews, and the installer spinner no longer stops unexpectedly.\n\n### 更新日志\n\n1. **卸载残留处理更准确**：检查 app 副本时，不再被已确认的 Time Machine 内部快照目录阻断，后台项目重新核对归属，保留文件会说明原因，Finder 权限提示和释放容量统计也已修正。\n2. **Clean 保留 renv 和状态未知的 app 缓存**：保存白名单后仍会保护 renv，无法确认运行状态的 app 缓存会保留，只读检查超时也不会中断其他清理。\n3. **Purge 不再被单个慢检查拖住整批项目**：项目活动检查并行执行，取消会停止后台检查，筛选失败时不再重复扫描。\n4. **Analyze 删除和刷新后更新容量**：受影响的文件夹和总览会重新测量，较早的扫描结果不再把旧数字带回来。\n5. **Status 修正 VPN 流量并保留可用数据**：使用默认 VPN 隧道时不再与底层网卡重复计算流量，`mo status --json` 在某个采集步骤失败时仍会输出已获取的可用数据。\n6. **开发工具占用与缓存清理**：大文件检查新增 FVM Flutter SDK 和 Codex worktree 的只读体积提示，worktree 不再重复列出，VS Code 和 Cursor 的扩展下载缓存也恢复清理。\n7. **同时运行不同命令时历史记录不再混在一起**：不同命令的操作和统计分别保存，不再混成一条历史记录。\n8. **终端进度显示更清楚**：加载动画改成居中的 2×2 形状，实际清理结果和预览使用同一套容量颜色，安装时的动画也不再意外停下。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @hmate9 · @cdeil · @M-Hassan-Raza · @r266-tech · @HaraldNordgren.\n\n### Mole Mac App\n\nPrefer a GUI? [Mole Mac App](https://mole.fit/) brings cleaning, app management, maintenance, disk analysis, and live system status into one native app, with review before deletion and a customizable menu bar HUD. It is $19 once, with free updates and a 14-day refund. [Download and try it](https://mole.fit/download). The CLI stays free and open source.\n",
   "reactions": {
     "url": "https://api.github.com/repos/tw93/Mole/releases/402372372/reactions",
-    "total_count": 26,
-    "+1": 11,
+    "total_count": 28,
+    "+1": 13,
     "-1": 0,
     "laugh": 2,
     "hooray": 3,
