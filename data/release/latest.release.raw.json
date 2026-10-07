@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4056192,
       "digest": "sha256:cf0830df63162dc34e120c19a409c130d6f468ed2d6039f9872e63e8a88adbc9",
-      "download_count": 132,
+      "download_count": 280,
       "created_at": "2026-10-05T11:30:52Z",
       "updated_at": "2026-10-05T11:30:53Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.58.0/analyze-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3860946,
       "digest": "sha256:e7e6fd63dcbc7db90df1b63f2b2db3357e82ce919cf09df5b0ca645bdb10d180",
-      "download_count": 421,
+      "download_count": 781,
       "created_at": "2026-10-05T11:30:52Z",
       "updated_at": "2026-10-05T11:30:52Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.58.0/analyze-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3388890,
       "digest": "sha256:bafed90dbef3bd7f82a4001c47d93b1a97a78e1dda1e0cba3e8970cc959b0a16",
-      "download_count": 16,
+      "download_count": 28,
       "created_at": "2026-10-05T11:30:52Z",
       "updated_at": "2026-10-05T11:30:52Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.58.0/binaries-darwin-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3153313,
       "digest": "sha256:6a3325e11fedc41776a9a95623ad7869fb254643d4c69d9eb5fa2c7559810bca",
-      "download_count": 29,
+      "download_count": 59,
       "created_at": "2026-10-05T11:30:52Z",
       "updated_at": "2026-10-05T11:30:52Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.58.0/binaries-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 536,
       "digest": "sha256:497a25298deabf3a28dfed79225ec892e770a277fba09cd198ac9912a696dbe4",
-      "download_count": 533,
+      "download_count": 986,
       "created_at": "2026-10-05T11:30:52Z",
       "updated_at": "2026-10-05T11:30:52Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.58.0/SHA256SUMS"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4331200,
       "digest": "sha256:4e490998a00ef063f4a22d5e9db4a7b37fe86665f2b6205c45bec49fc3a473b6",
-      "download_count": 119,
+      "download_count": 246,
       "created_at": "2026-10-05T11:30:52Z",
       "updated_at": "2026-10-05T11:30:52Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.58.0/status-darwin-amd64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4201106,
       "digest": "sha256:d2e4ed811f9e1bc2017f44b86f6a5841e3d202df17c3e50dabb591718a14d7c6",
-      "download_count": 402,
+      "download_count": 725,
       "created_at": "2026-10-05T11:30:52Z",
       "updated_at": "2026-10-05T11:30:52Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.58.0/status-darwin-arm64"
@@ -294,8 +294,8 @@
   "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. **Faster clean and uninstall**: Clean no longer stalls on large Gradle caches (a 2,000-entry build cache went from 24 s to under a second), scan workers pick up the next folder as soon as one finishes instead of waiting for the slowest, uninstall measures preview sizes in parallel, and repeated setup for every log line and Trash move is gone.\n2. **Uninstall finds leftovers again on Macs with a disconnected share**: A network drive left mounted after its server or virtual machine stopped, such as a Parallels Windows drive, no longer makes every uninstall keep the app's leftovers, and when leftovers are kept the reason now shows under that app in the preview.\n3. **Tidier Large files and clean output**: Large files gains a review-only row for Core ML compiled model caches, long paths show their last two folders while the link still opens the full path, and agent versions Mole cannot classify are no longer listed as skipped.\n4. **Clear stop in an inaccessible folder**: Running Mole from a directory it cannot read now stops with one line asking you to `cd ~`, instead of repeating system errors through every step.\n5. **Calmer terminal after menus**: Quitting the main menu with Q or Ctrl+C restores your terminal settings, and keys typed ahead no longer leak into the next menu or confirmation.\n6. **Analyze shows incomplete sizes honestly**: Folders that could only be partly measured are marked as partial or unavailable with a short reason, and the status line fits narrow terminals.\n\n### 更新日志\n\n1. **清理和卸载更快了**：Gradle 缓存多的时候 clean 不再卡住，2000 个条目的构建缓存从 24 秒降到 1 秒以内，扫描时一个目录处理完就立刻接下一个，不再等最慢的那个，卸载预览的大小改为并行计算，每写一行日志、每移动一次废纸篓也不再重复做准备工作。\n2. **挂着断开的网络盘时卸载也能清残留了**：服务器或虚拟机已经停掉、但网络盘还挂在系统里时，比如 Parallels 里 Windows 的 C 盘，卸载不会再因此保留所有残留，真的保留时原因会显示在预览里对应 app 的下面。\n3. **Large files 和清理输出更清爽**：Large files 新增 Core ML 编译模型缓存的只读大小提示，过长的路径只显示最后两级目录，点开链接仍是完整路径，无法判断当前版本的 AI 工具也不再列出跳过记录。\n4. **当前目录无法访问时直接说清楚**：在 Mole 读不到的目录里运行时，会用一行提示让你先 `cd ~`，不再每一步都重复刷系统报错。\n5. **菜单退出后终端恢复正常**：在主菜单按 Q 或 Ctrl+C 退出后终端设置会恢复，提前敲下的按键也不会漏到下一个菜单或确认提示里。\n6. **Analyze 如实标出不完整的大小**：只测到一部分的文件夹会标为部分或不可用，并附上简短原因，状态栏在窄终端里也能放下。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @cdeil · @Yuxin-Qiao · @r266-tech · @justpwned.\n\n### Mole Mac App\n\nPrefer a GUI? [Mole Mac App](https://mole.fit/) brings cleaning, app management, maintenance, disk analysis, and live system status into one native app, with review before deletion and a customizable menu bar HUD. It is $19 once, with free updates and a 14-day refund. [Download and try it](https://mole.fit/download). The CLI stays free and open source.\n",
   "reactions": {
     "url": "https://api.github.com/repos/tw93/Mole/releases/403642922/reactions",
-    "total_count": 20,
-    "+1": 6,
+    "total_count": 22,
+    "+1": 8,
     "-1": 0,
     "laugh": 2,
     "hooray": 4,
