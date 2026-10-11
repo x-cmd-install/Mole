@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/tw93/Mole/releases/408660320",
-  "assets_url": "https://api.github.com/repos/tw93/Mole/releases/408660320/assets",
-  "upload_url": "https://uploads.github.com/repos/tw93/Mole/releases/408660320/assets{?name,label}",
-  "html_url": "https://github.com/tw93/Mole/releases/tag/V1.59.0",
-  "id": 408660320,
+  "url": "https://api.github.com/repos/tw93/Mole/releases/408804295",
+  "assets_url": "https://api.github.com/repos/tw93/Mole/releases/408804295/assets",
+  "upload_url": "https://uploads.github.com/repos/tw93/Mole/releases/408804295/assets{?name,label}",
+  "html_url": "https://github.com/tw93/Mole/releases/tag/V1.59.1",
+  "id": 408804295,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOP1JGW84YW6lg",
-  "tag_name": "V1.59.0",
+  "node_id": "RE_kwDOP1JGW84YXdvH",
+  "tag_name": "V1.59.1",
   "target_commitish": "main",
-  "name": "V1.59.0 Gentle 🪶",
+  "name": "V1.59.1 Unfrozen 🧊",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-10T04:39:56Z",
-  "updated_at": "2026-10-10T05:11:23Z",
-  "published_at": "2026-10-10T04:55:33Z",
+  "created_at": "2026-10-10T08:08:49Z",
+  "updated_at": "2026-10-10T08:27:03Z",
+  "published_at": "2026-10-10T08:23:03Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627040926",
-      "id": 627040926,
-      "node_id": "RA_kwDOP1JGW84lX-Ke",
+      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627420412",
+      "id": 627420412,
+      "node_id": "RA_kwDOP1JGW84lZaz8",
       "name": "analyze-darwin-amd64",
       "label": "",
       "uploader": {
@@ -66,16 +66,16 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 4056240,
-      "digest": "sha256:857937d658a300f7242a540e117656031e89cd1aecd0f19b337cfba478437617",
-      "download_count": 11,
-      "created_at": "2026-10-10T04:55:32Z",
-      "updated_at": "2026-10-10T04:55:32Z",
-      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.0/analyze-darwin-amd64"
+      "digest": "sha256:eb8aaa33b4686f2c41d83ec0dccf8d4e71bc9052e2c69959f94fbc483b5c8b38",
+      "download_count": 132,
+      "created_at": "2026-10-10T08:23:02Z",
+      "updated_at": "2026-10-10T08:23:03Z",
+      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/analyze-darwin-amd64"
     },
     {
-      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627040925",
-      "id": 627040925,
-      "node_id": "RA_kwDOP1JGW84lX-Kd",
+      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627420415",
+      "id": 627420415,
+      "node_id": "RA_kwDOP1JGW84lZaz_",
       "name": "analyze-darwin-arm64",
       "label": "",
       "uploader": {
@@ -102,16 +102,16 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3860994,
-      "digest": "sha256:0f9aba36a7dfcc1e10b92b28e21f4c3287767a7241a97be80344720075904161",
-      "download_count": 45,
-      "created_at": "2026-10-10T04:55:32Z",
-      "updated_at": "2026-10-10T04:55:32Z",
-      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.0/analyze-darwin-arm64"
+      "digest": "sha256:c16ac20b06813540698fcb8c006ccf813f9043034a2a7a78bf43a1cf62b39519",
+      "download_count": 401,
+      "created_at": "2026-10-10T08:23:02Z",
+      "updated_at": "2026-10-10T08:23:03Z",
+      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/analyze-darwin-arm64"
     },
     {
-      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627040922",
-      "id": 627040922,
-      "node_id": "RA_kwDOP1JGW84lX-Ka",
+      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627420414",
+      "id": 627420414,
+      "node_id": "RA_kwDOP1JGW84lZaz-",
       "name": "binaries-darwin-amd64.tar.gz",
       "label": "",
       "uploader": {
@@ -137,17 +137,17 @@
       },
       "content_type": "application/gzip",
       "state": "uploaded",
-      "size": 3394675,
-      "digest": "sha256:484debc42e2e11c461f97dd40c0e1e3773d05b849fa659c2b350f67da3da83b9",
-      "download_count": 3,
-      "created_at": "2026-10-10T04:55:32Z",
-      "updated_at": "2026-10-10T04:55:32Z",
-      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.0/binaries-darwin-amd64.tar.gz"
+      "size": 3394693,
+      "digest": "sha256:f08e4bcd63107e22d30109c50e5d484e815b5d8f76a18084076d11f562163c1a",
+      "download_count": 27,
+      "created_at": "2026-10-10T08:23:02Z",
+      "updated_at": "2026-10-10T08:23:03Z",
+      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/binaries-darwin-amd64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627040927",
-      "id": 627040927,
-      "node_id": "RA_kwDOP1JGW84lX-Kf",
+      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627420409",
+      "id": 627420409,
+      "node_id": "RA_kwDOP1JGW84lZaz5",
       "name": "binaries-darwin-arm64.tar.gz",
       "label": "",
       "uploader": {
@@ -173,17 +173,17 @@
       },
       "content_type": "application/gzip",
       "state": "uploaded",
-      "size": 3160936,
-      "digest": "sha256:6bd40ba587456c62a9031920c37a969f853d529d399c443953ee6d7a40df84de",
-      "download_count": 2,
-      "created_at": "2026-10-10T04:55:32Z",
-      "updated_at": "2026-10-10T04:55:32Z",
-      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.0/binaries-darwin-arm64.tar.gz"
+      "size": 3160933,
+      "digest": "sha256:d3f916c3f8355a06645c458f7b169fc51e6372290f31009bdee62e80344fc3a8",
+      "download_count": 38,
+      "created_at": "2026-10-10T08:23:02Z",
+      "updated_at": "2026-10-10T08:23:02Z",
+      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/binaries-darwin-arm64.tar.gz"
     },
     {
-      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627040921",
-      "id": 627040921,
-      "node_id": "RA_kwDOP1JGW84lX-KZ",
+      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627420411",
+      "id": 627420411,
+      "node_id": "RA_kwDOP1JGW84lZaz7",
       "name": "SHA256SUMS",
       "label": "",
       "uploader": {
@@ -210,16 +210,16 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 536,
-      "digest": "sha256:39db396d2b377a97be440acb78eb97c35f53d06f9a187dd776fa4f1087bea298",
-      "download_count": 55,
-      "created_at": "2026-10-10T04:55:32Z",
-      "updated_at": "2026-10-10T04:55:32Z",
-      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.0/SHA256SUMS"
+      "digest": "sha256:22e48da6500a48d32db0a88f60f9ca282c3065013e22afb7fd1adec2b8a6daad",
+      "download_count": 477,
+      "created_at": "2026-10-10T08:23:02Z",
+      "updated_at": "2026-10-10T08:23:02Z",
+      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/SHA256SUMS"
     },
     {
-      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627040924",
-      "id": 627040924,
-      "node_id": "RA_kwDOP1JGW84lX-Kc",
+      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627420410",
+      "id": 627420410,
+      "node_id": "RA_kwDOP1JGW84lZaz6",
       "name": "status-darwin-amd64",
       "label": "",
       "uploader": {
@@ -246,16 +246,16 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 4348176,
-      "digest": "sha256:0f1de1998aca17e6430c5ec2608c57a7e9ca78e1623179bac40b77bed852b804",
-      "download_count": 10,
-      "created_at": "2026-10-10T04:55:32Z",
-      "updated_at": "2026-10-10T04:55:32Z",
-      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.0/status-darwin-amd64"
+      "digest": "sha256:15c4ae9b74bf915516951da97488c3a74e5d41f7c7da0cbba25dd38ed7523276",
+      "download_count": 114,
+      "created_at": "2026-10-10T08:23:02Z",
+      "updated_at": "2026-10-10T08:23:02Z",
+      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/status-darwin-amd64"
     },
     {
-      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627040928",
-      "id": 627040928,
-      "node_id": "RA_kwDOP1JGW84lX-Kg",
+      "url": "https://api.github.com/repos/tw93/Mole/releases/assets/627420418",
+      "id": 627420418,
+      "node_id": "RA_kwDOP1JGW84lZa0C",
       "name": "status-darwin-arm64",
       "label": "",
       "uploader": {
@@ -282,27 +282,26 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 4218210,
-      "digest": "sha256:2599c66a2206f0fb7ba5ddfe57e226472086b851091bcbf546046ca4254b0ece",
-      "download_count": 46,
-      "created_at": "2026-10-10T04:55:32Z",
-      "updated_at": "2026-10-10T04:55:32Z",
-      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.0/status-darwin-arm64"
+      "digest": "sha256:04c412f3dec65781b9e69e8a20bcdaa2d217f27cf0eda52843aea910ade39ef6",
+      "download_count": 360,
+      "created_at": "2026-10-10T08:23:02Z",
+      "updated_at": "2026-10-10T08:23:03Z",
+      "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/status-darwin-arm64"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/tw93/Mole/tarball/V1.59.0",
-  "zipball_url": "https://api.github.com/repos/tw93/Mole/zipball/V1.59.0",
-  "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. **Clean leaves what is still in use**: `mo clean` no longer deletes `__pycache__`, `.dart_tool`, Flutter `build/` or `.next/cache` folders that Git tracks or that hold another repository, keeps the DiagnosticReports folder so crash reports still save, and no longer asks for your password later once you skip admin access at the start.\n2. **One slow tool no longer ends the clean**: When `go clean` times out or an npm cache command fails, Mole skips that step and keeps going, and Ctrl-C during Homebrew, bun, simctl or tart cleanup now stops the whole clean right away.\n3. **Faster clean and purge**: Large files measures its rows in parallel and now shows the big Simulator and DerivedData folders it used to miss, and a purge dry run over a large projects folder dropped from about 27 s to 12 s.\n4. **Dry run matches the real clean**: `mo clean --dry-run` lists every Trash item the real run empties, and browser code-signature clones no longer inflate the reclaimable total.\n5. **Uninstall list opens faster**: `mo uninstall` shows its list without the blank pause (about 0.9 s instead of 1.6 s on a Mac with 37 apps) and no longer rescans every installer receipt on the first run each hour. S and O sort by name before sizes load, and `/` search matches spaces and punctuation as typed.\n6. **Uninstall keeps data a second copy still uses**: Removing a Beta or Nightly build next to the stable app keeps the data they share, and the summary says once why that data stayed.\n7. **Update notices only for real releases**: After an interactive command, Mole mentions a new version only after it is published, and looks it up about once a day.\n8. **Optimize leaves your VPN alone**: `mo optimize` skips the DNS flush while a VPN is connected, so WireGuard-style clients stop reconnecting, and login item checks stopped by permissions or a time limit show as unavailable instead of failed.\n9. **History groups each run**: `mo history` keeps a run's actions together even when runs overlap or one was cut short, and a file name can no longer fake an entry.\n10. **Homebrew leftovers on one line**: `mo clean` lists unused Homebrew dependencies on one line with the `brew autoremove` command, and still leaves removing them to you.\n11. **Nix support**: Mole can be installed, upgraded and removed with Nix on macOS.\n\n### 更新日志\n\n1. **清理时不动还在用的东西**：Git 跟踪着的、或者里面还套着仓库的 `__pycache__`、`.dart_tool`、Flutter `build/` 和 `.next/cache` 不再被删，DiagnosticReports 目录本身会留着，崩溃报告也就能正常写进去，开头跳过管理员权限后，后面也不会再找你要密码。\n2. **一个工具卡住不会拖垮整轮清理**：`go clean` 超时或者 npm 缓存命令报错时，Mole 只跳过这一步接着清，清 Homebrew、bun、simctl 和 tart 时按 Ctrl-C 也能马上停下来。\n3. **clean 和 purge 快了不少**：Large files 改成并行测量，以前漏掉的大块 Simulator 和 DerivedData 目录也能显示出来，对一个大项目目录做 purge 预览从 27 秒左右降到 12 秒。\n4. **预览和真清理对得上了**：`mo clean --dry-run` 会列出真清理时要清空的每一项废纸篓内容，浏览器代码签名克隆也不会再把可回收空间算大。\n5. **卸载列表出得更快**：`mo uninstall` 出列表前不再白屏，一台装了 37 个 App 的 Mac 上从 1.6 秒降到 0.9 秒左右，每小时第一次打开也不用重扫一遍安装包回执，S 和 O 在大小还没算完时就能按名字排序，`/` 搜索时空格和标点照原样匹配。\n6. **卸载时留下另一个版本还在用的数据**：卸载和正式版并存的 Beta 或 Nightly 时，两者共用的数据会留着，汇总里只说一次为什么留下。\n7. **只提示真正发布了的新版本**：交互式命令跑完后，有正式发布的新版本才会提示，大约一天查一次。\n8. **优化时不碰 VPN**：VPN 连着时 `mo optimize` 会跳过 DNS 缓存刷新，WireGuard 这类客户端不用每次都重连，登录项检查因为权限或超时没跑完时，显示为不可用而不是失败。\n9. **历史记录按每一轮分好**：`mo history` 会把同一轮的操作放在一起，几轮重叠或者中途被打断也不会混，文件名也没法再伪造出一条记录。\n10. **Homebrew 多余依赖只占一行**：`mo clean` 把可以移除的 Homebrew 依赖合成一行，附上要跑的 `brew autoremove`，删不删还是你来定。\n11. **支持 Nix**：现在可以在 macOS 上用 Nix 安装、升级和卸载 Mole。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @cdeil · @Yuxin-Qiao · @M-Hassan-Raza · @md786-dotcom · @HaraldNordgren · @lylythechosenone · @devcsb · @jgreen417 · @fhello23 · @timonwong · @dhjo70 · @Pimzino.\n\n### Mole Mac App\n\nIf you would rather work in a window than a terminal, [Mole Mac App](https://mole.fit/) covers cleaning, app removal, maintenance, disk analysis and live status, shows everything before it deletes, and adds tools in the menu bar. It costs $19 once, with free updates and a 14-day refund, and you can [download it here](https://mole.fit/download). The CLI stays free and open source.\n",
+  "tarball_url": "https://api.github.com/repos/tw93/Mole/tarball/V1.59.1",
+  "zipball_url": "https://api.github.com/repos/tw93/Mole/zipball/V1.59.1",
+  "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. **Clean no longer goes quiet**: After App leftovers, `mo clean` keeps a \"Checking orphaned system services...\" line moving while it rechecks each service, and the Homebrew previews and Apps & utilities now show loading instead of a still screen.\n2. **Trash says why it was skipped**: When your terminal lacks Full Disk Access, `mo clean` prints one line saying so instead of leaving the Trash untouched without a word, and granting that access lets it empty the Trash again.\n3. **Uninstall loading keeps moving**: On a first scan, the \"Preparing app list...\" spinner keeps turning until the app list appears.\n\n### 更新日志\n\n1. **清理时不再静止不动**：App leftovers 之后逐个复查孤儿系统服务时，会一直显示 \"Checking orphaned system services...\"，Homebrew 预览和 Apps & utilities 这两段也都有 loading，不会再一停好几秒没有任何动静。\n2. **废纸篓没清会说明原因**：终端没有完全磁盘访问权限时，`mo clean` 会用一行提示说出来，不再一声不响地跳过废纸篓，给终端开了这个权限后就会照常清空。\n3. **卸载时的 loading 会一直转**：第一次扫描时，\"Preparing app list...\" 会一直转到 App 列表出来。\n\n### Mole Mac App\n\nIf you would rather work in a window than a terminal, [Mole Mac App](https://mole.fit/) covers cleaning, app removal, maintenance, disk analysis and live status, shows everything before it deletes, and adds tools in the menu bar. It costs $19 once, with free updates and a 14-day refund, and you can [download it here](https://mole.fit/download). The CLI stays free and open source.\n",
   "reactions": {
-    "url": "https://api.github.com/repos/tw93/Mole/releases/408660320/reactions",
-    "total_count": 21,
-    "+1": 6,
+    "url": "https://api.github.com/repos/tw93/Mole/releases/408804295/reactions",
+    "total_count": 15,
+    "+1": 4,
     "-1": 0,
-    "laugh": 2,
-    "hooray": 4,
+    "laugh": 1,
+    "hooray": 2,
     "confused": 0,
     "heart": 4,
     "rocket": 3,
-    "eyes": 2
-  },
-  "mentions_count": 12
+    "eyes": 1
+  }
 }
