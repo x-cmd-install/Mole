@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4056240,
       "digest": "sha256:eb8aaa33b4686f2c41d83ec0dccf8d4e71bc9052e2c69959f94fbc483b5c8b38",
-      "download_count": 292,
+      "download_count": 471,
       "created_at": "2026-10-10T08:23:02Z",
       "updated_at": "2026-10-10T08:23:03Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/analyze-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3860994,
       "digest": "sha256:c16ac20b06813540698fcb8c006ccf813f9043034a2a7a78bf43a1cf62b39519",
-      "download_count": 856,
+      "download_count": 1377,
       "created_at": "2026-10-10T08:23:02Z",
       "updated_at": "2026-10-10T08:23:03Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/analyze-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3394693,
       "digest": "sha256:f08e4bcd63107e22d30109c50e5d484e815b5d8f76a18084076d11f562163c1a",
-      "download_count": 44,
+      "download_count": 58,
       "created_at": "2026-10-10T08:23:02Z",
       "updated_at": "2026-10-10T08:23:03Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/binaries-darwin-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3160933,
       "digest": "sha256:d3f916c3f8355a06645c458f7b169fc51e6372290f31009bdee62e80344fc3a8",
-      "download_count": 80,
+      "download_count": 129,
       "created_at": "2026-10-10T08:23:02Z",
       "updated_at": "2026-10-10T08:23:02Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/binaries-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 536,
       "digest": "sha256:22e48da6500a48d32db0a88f60f9ca282c3065013e22afb7fd1adec2b8a6daad",
-      "download_count": 1054,
+      "download_count": 1707,
       "created_at": "2026-10-10T08:23:02Z",
       "updated_at": "2026-10-10T08:23:02Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/SHA256SUMS"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4348176,
       "digest": "sha256:15c4ae9b74bf915516951da97488c3a74e5d41f7c7da0cbba25dd38ed7523276",
-      "download_count": 257,
+      "download_count": 407,
       "created_at": "2026-10-10T08:23:02Z",
       "updated_at": "2026-10-10T08:23:02Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/status-darwin-amd64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4218210,
       "digest": "sha256:04c412f3dec65781b9e69e8a20bcdaa2d217f27cf0eda52843aea910ade39ef6",
-      "download_count": 786,
+      "download_count": 1273,
       "created_at": "2026-10-10T08:23:02Z",
       "updated_at": "2026-10-10T08:23:03Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.59.1/status-darwin-arm64"
@@ -294,8 +294,8 @@
   "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. **Clean no longer goes quiet**: After App leftovers, `mo clean` keeps a \"Checking orphaned system services...\" line moving while it rechecks each service, and the Homebrew previews and Apps & utilities now show loading instead of a still screen.\n2. **Trash says why it was skipped**: When your terminal lacks Full Disk Access, `mo clean` prints one line saying so instead of leaving the Trash untouched without a word, and granting that access lets it empty the Trash again.\n3. **Uninstall loading keeps moving**: On a first scan, the \"Preparing app list...\" spinner keeps turning until the app list appears.\n\n### 更新日志\n\n1. **清理时不再静止不动**：App leftovers 之后逐个复查孤儿系统服务时，会一直显示 \"Checking orphaned system services...\"，Homebrew 预览和 Apps & utilities 这两段也都有 loading，不会再一停好几秒没有任何动静。\n2. **废纸篓没清会说明原因**：终端没有完全磁盘访问权限时，`mo clean` 会用一行提示说出来，不再一声不响地跳过废纸篓，给终端开了这个权限后就会照常清空。\n3. **卸载时的 loading 会一直转**：第一次扫描时，\"Preparing app list...\" 会一直转到 App 列表出来。\n\n### Mole Mac App\n\nIf you would rather work in a window than a terminal, [Mole Mac App](https://mole.fit/) covers cleaning, app removal, maintenance, disk analysis and live status, shows everything before it deletes, and adds tools in the menu bar. It costs $19 once, with free updates and a 14-day refund, and you can [download it here](https://mole.fit/download). The CLI stays free and open source.\n",
   "reactions": {
     "url": "https://api.github.com/repos/tw93/Mole/releases/408804295/reactions",
-    "total_count": 20,
-    "+1": 8,
+    "total_count": 22,
+    "+1": 10,
     "-1": 0,
     "laugh": 1,
     "hooray": 2,
