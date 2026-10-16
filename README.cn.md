@@ -2,7 +2,7 @@
 
 [English version](./README.md)
 
-🐹 Keep your Mac clean, light, and running like new. Fast open-source CLI, plus a native Mac app.
+🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.
 
 [![x-cmd/install — Mole Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/Mole.svg?lang=zh)](https://x-cmd.com/install/Mole)
 
@@ -14,15 +14,15 @@ x install Mole
 
 ## 代码洞察
 
-合计: **71,467** 行代码（覆盖前 5 种语言、共 **151** 个文件）。
+合计: **72,431** 行代码（覆盖前 5 种语言、共 **154** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Sh | 44,085 | 6,395 | 4,924 | 68 |
-| Go | 23,363 | 1,304 | 2,683 | 67 |
-| Svg | 1,697 | 1 | 0 | 1 |
-| Python | 1,639 | 102 | 206 | 11 |
-| Bash | 412 | 88 | 56 | 4 |
+| Sh | 44,534 | 6,502 | 4,949 | 68 |
+| Go | 23,744 | 1,337 | 2,719 | 69 |
+| Python | 1,741 | 105 | 214 | 12 |
+| Svg | 1,708 | 1 | 0 | 1 |
+| Bash | 431 | 97 | 58 | 4 |
 
 ## 源代码
 
@@ -32,40 +32,40 @@ x install Mole
 
 ## 发布
 
-- **最新版本**: `V1.34.0-windows` (2026-10-14)
-- **最近提交**: 2026-10-15
+- **最新版本**: `V1.35.0-windows` (2026-10-15)
+- **最近提交**: 2026-10-16
 - **Release 含资产**: 7 个
 
 ## 流行度
 
-- **Star**: 70,433 · **Fork**: 2,498 · **开放 issue**: 1,072 · **贡献者**: 156
+- **Star**: 70,586 · **Fork**: 2,501 · **开放 issue**: 1,075 · **贡献者**: 157
 
 ## 累计统计
 
-- **发布数**: 75 · **已合并 PR**: 446 · **开放 PR**: 0 · **已关闭 issue**: 1068 · **开放 issue**: 4 · **提交数**: 3578
+- **发布数**: 77 · **已合并 PR**: 449 · **开放 PR**: 0 · **已关闭 issue**: 1075 · **开放 issue**: 0 · **提交数**: 3615
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 11 | 68 | 0 | 92 | 4 | 412 |
-| last60d | 2026-08-16 | 16 | 112 | 0 | 172 | 4 | 579 |
-| 90d | 2026-07-17 | 23 | 156 | 0 | 285 | 4 | 890 |
-| last180d | 2026-04-18 | 41 | 255 | 0 | 616 | 4 | 1414 |
-| 360d | 2025-10-20 | 71 | 440 | 0 | 1042 | 4 | 3029 |
-| last720d | 2024-10-25 | 75 | 446 | 0 | 1068 | 4 | 3578 |
+| 30d | 2026-09-16 | 13 | 70 | 0 | 95 | 0 | 0 |
+| last60d | 2026-08-17 | 16 | 114 | 0 | 179 | 0 | 0 |
+| 90d | 2026-07-18 | 25 | 158 | 0 | 291 | 0 | 0 |
+| last180d | 2026-04-19 | 43 | 258 | 0 | 622 | 0 | 0 |
+| 360d | 2025-10-21 | 73 | 443 | 0 | 1049 | 0 | 0 |
+| last720d | 2024-10-26 | 77 | 449 | 0 | 1075 | 0 | 3615 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [analyze-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.59.1/analyze-darwin-amd64) | 3.9 MiB | `native/darwin/x64` |
-| [analyze-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.59.1/analyze-darwin-arm64) | 3.7 MiB | `native/darwin/arm64` |
-| [binaries-darwin-amd64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.59.1/binaries-darwin-amd64.tar.gz) | 3.2 MiB | `native/darwin/x64` |
-| [binaries-darwin-arm64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.59.1/binaries-darwin-arm64.tar.gz) | 3.0 MiB | `native/darwin/arm64` |
-| [SHA256SUMS](https://github.com/tw93/Mole/releases/download/V1.59.1/SHA256SUMS) | 536 B | `other` |
-| [status-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.59.1/status-darwin-amd64) | 4.1 MiB | `native/darwin/x64` |
-| [status-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.59.1/status-darwin-arm64) | 4.0 MiB | `native/darwin/arm64` |
+| [analyze-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.60.0/analyze-darwin-amd64) | 3.9 MiB | `native/darwin/x64` |
+| [analyze-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.60.0/analyze-darwin-arm64) | 3.7 MiB | `native/darwin/arm64` |
+| [binaries-darwin-amd64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.60.0/binaries-darwin-amd64.tar.gz) | 3.3 MiB | `native/darwin/x64` |
+| [binaries-darwin-arm64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.60.0/binaries-darwin-arm64.tar.gz) | 3.0 MiB | `native/darwin/arm64` |
+| [SHA256SUMS](https://github.com/tw93/Mole/releases/download/V1.60.0/SHA256SUMS) | 536 B | `other` |
+| [status-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.60.0/status-darwin-amd64) | 4.2 MiB | `native/darwin/x64` |
+| [status-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.60.0/status-darwin-arm64) | 4.1 MiB | `native/darwin/arm64` |
 
 ## 改进这些数据
 
@@ -76,4 +76,4 @@ Mole 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261015.yml` · 2026-10-15T05:22:14Z._
+_数据快照: `data/card/261016.yml` · 2026-10-16T05:26:48Z._
