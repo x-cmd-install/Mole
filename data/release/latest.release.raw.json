@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4287952,
       "digest": "sha256:918b9051ff51518445c2759b4a7f08ed029319373b9ea0f70df82dc877c02119",
-      "download_count": 123,
+      "download_count": 293,
       "created_at": "2026-10-16T14:08:52Z",
       "updated_at": "2026-10-16T14:08:53Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.61.0/analyze-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 4061442,
       "digest": "sha256:7d25c9999c93de489c4aa2c2f538873145de8d5f77eb67f32a5942785d4351b8",
-      "download_count": 325,
+      "download_count": 830,
       "created_at": "2026-10-16T14:08:52Z",
       "updated_at": "2026-10-16T14:08:54Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.61.0/analyze-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3476836,
       "digest": "sha256:78e39ad2964be7446d1fbf197a046681487f0063f8d72373e8b3bb61d17c2022",
-      "download_count": 15,
+      "download_count": 42,
       "created_at": "2026-10-16T14:08:52Z",
       "updated_at": "2026-10-16T14:08:53Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.61.0/binaries-darwin-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3240187,
       "digest": "sha256:67e5b7264f9bb6220b39dcac4f09f508d62fce648abbde198f2e6fde393bbb2b",
-      "download_count": 24,
+      "download_count": 61,
       "created_at": "2026-10-16T14:08:52Z",
       "updated_at": "2026-10-16T14:08:53Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.61.0/binaries-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 536,
       "digest": "sha256:89604ad6a24fc6b0fa1f055173612d33ce033d923ea23b336347eec0cf82da47",
-      "download_count": 431,
+      "download_count": 1042,
       "created_at": "2026-10-16T14:08:52Z",
       "updated_at": "2026-10-16T14:08:52Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.61.0/SHA256SUMS"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4397696,
       "digest": "sha256:9e0dc50459902d0b114ea1430d5611aab4982a689f3a8cd5231efe716ca3a954",
-      "download_count": 111,
+      "download_count": 259,
       "created_at": "2026-10-16T14:08:52Z",
       "updated_at": "2026-10-16T14:08:53Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.61.0/status-darwin-amd64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4268130,
       "digest": "sha256:75402ecb15dfb40ae348b27cdff3a9d5024941bb130d2951a8544be40f97e820",
-      "download_count": 308,
+      "download_count": 779,
       "created_at": "2026-10-16T14:08:52Z",
       "updated_at": "2026-10-16T14:08:53Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.61.0/status-darwin-arm64"
@@ -294,14 +294,14 @@
   "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. **Select all personal data with one key**: In the personal data list `mo uninstall` opens with D, pressing A selects every path and pressing it again clears them, so removing all of an app's data takes two keys while you still see each path before confirming.\n2. **Work with GNU tools first in PATH**: Mole now calls the macOS versions of stat, find, tr, date and du directly, so Homebrew coreutils, findutils or grep earlier in PATH no longer stop `mo clean` with an unbound variable, skip cloud folders, break name search for apps like Écrivain, or fail sizes in Analyze.\n3. **Keep game libraries, rollbacks and live system data**: Uninstall never offers the Steam folder that holds your games, Nix cleanup removes only store paths nothing references and keeps your profile generations, and clean leaves every live power log database alone.\n4. **Clean old browser builds and device symbols**: Clean removes Chrome builds agent-browser no longer launches, keeping the one it uses or that you pinned, and prunes old macOS and visionOS DeviceSupport versions like the other platforms.\n5. **No Xcode install prompt during clean**: Clean leaves the simulator tools alone until Xcode has finished its own first-launch setup, so skipping the admin prompt no longer leads to a system password dialog, and simulator checks show a spinner instead of looking stuck.\n6. **Log every change Mole makes**: Dry runs, refused removals, Analyze moves to Trash, Homebrew, launch and login item changes, and package manager cleanups now each leave a row in the operation log, and `mo remove` keeps those logs.\n7. **Search and list apps faster**: `mo uninstall <name>` with hundreds of apps returns in well under a second, and `mo uninstall --list` reads Homebrew ownership in batches instead of one cask at a time.\n8. **Ask for admin access before work starts**: The first admin prompt now appears before system cleanup begins instead of later behind a spinner.\n9. **Finish developer cleanup when one tool cannot be read**: An unreadable AI agent versions folder no longer cancels the rest of developer cleanup, npm cleanup has a time limit, and entries you whitelisted no longer count as skipped protected items.\n10. **Use the defaults Mole ships**: Thirteen undocumented tuning variables such as `MOLE_SKIP_TRASH_CLEANUP` are gone; to keep the Trash, tick its row in `mo clean --whitelist`.\n\n### 更新日志\n\n1. **一个键选中全部个人数据**：`mo uninstall` 中按 D 打开个人数据列表后，按 A 选中全部路径，再按一次取消，删除一个 App 的全部数据只要两个键，确认前仍能看到每一条路径。\n2. **PATH 里装了 GNU 工具也能正常使用**：Mole 现在直接调用 macOS 自带的 stat、find、tr、date 和 du，Homebrew 的 coreutils、findutils 或 grep 排在 PATH 前面时，`mo clean` 不再因未定义变量中断，也不会跳过云盘目录、搜不到 Écrivain 这类名字的 App，或让 Analyze 算不出大小。\n3. **保留游戏库、回滚点和正在使用的系统数据**：卸载永远不会提供存放游戏的 Steam 目录，Nix 清理只回收没有被引用的 store 路径并保留 profile 的各个版本，clean 也不再动正在使用的电源日志数据库。\n4. **清理旧浏览器和设备调试文件**：clean 会删除 agent-browser 不再使用的 Chrome 旧版本，保留它正在用或你指定的那一个，macOS 和 visionOS 的旧 DeviceSupport 也像其他平台一样只保留最新版本。\n5. **清理时不再弹出 Xcode 安装框**：Xcode 自己的首次设置完成前，clean 不会调用模拟器工具，跳过管理员授权后不会再弹出系统密码框，检查模拟器时也会显示进度，不再像卡住一样。\n6. **每次改动都有记录**：dry run、被拒绝的删除、Analyze 移到废纸篓、Homebrew、启动项和登录项变更，以及包管理器的缓存清理都会写进操作日志，`mo remove` 卸载 Mole 时也会保留这些日志。\n7. **搜索和列出 App 更快**：装了几百个 App 时 `mo uninstall <名字>` 不到一秒就能返回，`mo uninstall --list` 也改为批量读取 Homebrew 归属，不再逐个查询。\n8. **开始清理前先请求管理员授权**：第一次管理员授权会在系统清理开始前出现，不再藏在 loading 后面。\n9. **单个工具读不到时继续完成开发工具清理**：某个 AI 工具的版本目录读不到时，不再中止后面的开发工具清理，npm 缓存清理也加上了时间限制，加入白名单的条目不再计入跳过的受保护项。\n10. **统一使用内置默认值**：删除了 13 个没有写进文档的调节变量，例如 `MOLE_SKIP_TRASH_CLEANUP`，想保留废纸篓请在 `mo clean --whitelist` 中勾选它那一行。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @Ctrl-Alb · @viztor · @mbarbero · @guilhem.\n\n### Mole Mac App\n\nIf you would rather work in a window than a terminal, [Mole Mac App](https://mole.fit/) covers cleaning, app removal, maintenance, disk analysis and live status, shows everything before it deletes, and adds tools in the menu bar. It costs $19 once, with free updates and a 14-day refund, and you can [download it here](https://mole.fit/download). The CLI stays free and open source.\n",
   "reactions": {
     "url": "https://api.github.com/repos/tw93/Mole/releases/415034320/reactions",
-    "total_count": 13,
-    "+1": 5,
+    "total_count": 18,
+    "+1": 8,
     "-1": 0,
     "laugh": 1,
     "hooray": 2,
     "confused": 0,
     "heart": 2,
-    "rocket": 2,
+    "rocket": 4,
     "eyes": 1
   },
   "mentions_count": 4
