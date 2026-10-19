@@ -1,0 +1,144 @@
+about:
+  description: "🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps."
+  license: GPL-3.0
+  homepage: https://mole.fit
+  head: d47a952
+  archived: false
+  latestVersion: "V1.36.0-windows"
+  latestRelease: "V1.36.0-windows"
+  latestPrerelease: "v1.30.0-windows"
+  collectedAt: 2026-10-19T05:24:08Z
+timeline:
+  created: 2025-09-23
+  lastCommit: 2026-10-19
+  lastVersion: 2026-10-16
+  lastRelease: 2026-10-16
+  lastPrerelease: 2026-08-16
+popularity:
+  star: 71403
+  watcher: 152
+  fork: 2514
+  release: 79
+  contributor: 158
+  pullRequest: 623
+  issue: 1092
+language:
+  Shell: 5061142
+  Go: 847986
+  Python: 114278
+  Nix: 6409
+  Makefile: 2235
+totalBytes: 6032050
+recent:
+  last30d:
+    since: 2026-09-19
+    release: 15
+    mergedPR: 79
+    openPR: 0
+    closedIssue: 99
+    openIssue: 2
+    commit: 475
+  last60d:
+    since: 2026-08-20
+    release: 18
+    mergedPR: 122
+    openPR: 0
+    closedIssue: 186
+    openIssue: 2
+    commit: 670
+  last90d:
+    since: 2026-07-21
+    release: 26
+    mergedPR: 164
+    openPR: 0
+    closedIssue: 299
+    openIssue: 2
+    commit: 912
+  last180d:
+    since: 2026-04-22
+    release: 44
+    mergedPR: 265
+    openPR: 0
+    closedIssue: 625
+    openIssue: 2
+    commit: 1490
+  last360d:
+    since: 2025-10-24
+    release: 75
+    mergedPR: 454
+    openPR: 0
+    closedIssue: 1062
+    openIssue: 2
+    commit: 3144
+  last720d:
+    since: 2024-10-29
+    release: 79
+    mergedPR: 460
+    openPR: 0
+    closedIssue: 1090
+    openIssue: 2
+    commit: 3693
+total:
+  release: 79
+  mergedPR: 460
+  openPR: 0
+  closedIssue: 1090
+  openIssue: 2
+  commit: 3693
+---
+path: /home/runner/.x-repo/github.com/tw93/Mole
+collectedAt: 2026-10-19T05:24:30Z
+loc:
+  Sh:
+    code: 45026
+    comments: 6677
+    blanks: 4975
+    files: 68
+  Go:
+    code: 24296
+    comments: 1363
+    blanks: 2750
+    files: 70
+  Python:
+    code: 2312
+    comments: 113
+    blanks: 291
+    files: 14
+  Svg:
+    code: 1719
+    comments: 1
+    blanks: 0
+    files: 1
+  Bash:
+    code: 452
+    comments: 97
+    blanks: 62
+    files: 4
+  Nix:
+    code: 226
+    comments: 7
+    blanks: 13
+    files: 4
+  Makefile:
+    code: 47
+    comments: 10
+    blanks: 17
+    files: 1
+  Markdown:
+    code: 0
+    comments: 3508
+    blanks: 1497
+    files: 17
+  Text:
+    code: 0
+    comments: 116
+    blanks: 13
+    files: 1
+total:
+  code: 74513
+  comments: 11909
+  blanks: 9646
+  files: 180
+---
+
+---
