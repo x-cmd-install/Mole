@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4288032,
       "digest": "sha256:347a55ecc12889ad6ab0f7c1341d4c3f5d0b9d953d08340777d73e40f3eb2697",
-      "download_count": 3,
+      "download_count": 253,
       "created_at": "2026-10-21T05:15:13Z",
       "updated_at": "2026-10-21T05:15:13Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.62.0/analyze-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 4061522,
       "digest": "sha256:a151ced5f9963bdc43a2d3b05d1db4933b9a56db7c4500d4b182436f303b86bd",
-      "download_count": 3,
+      "download_count": 675,
       "created_at": "2026-10-21T05:15:13Z",
       "updated_at": "2026-10-21T05:15:13Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.62.0/analyze-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3477122,
       "digest": "sha256:78683df91858ad202735155a8e042257cfb1cdf81570ce16d5bfd1edd2b9e3e4",
-      "download_count": 1,
+      "download_count": 35,
       "created_at": "2026-10-21T05:15:13Z",
       "updated_at": "2026-10-21T05:15:13Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.62.0/binaries-darwin-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3240827,
       "digest": "sha256:f86ec5180eea2b16997555b9cc63ae36945dde1eec527f4d1319a7d69251e84d",
-      "download_count": 1,
+      "download_count": 51,
       "created_at": "2026-10-21T05:15:13Z",
       "updated_at": "2026-10-21T05:15:13Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.62.0/binaries-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 536,
       "digest": "sha256:cd163ed32e62ece2d4793b4c028016650c2fa8ed661d53ed95f32a1aa7670300",
-      "download_count": 5,
+      "download_count": 797,
       "created_at": "2026-10-21T05:15:13Z",
       "updated_at": "2026-10-21T05:15:13Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.62.0/SHA256SUMS"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4397776,
       "digest": "sha256:7f7b923ab8c9f9310915439c8ecbe0120edf504b46207155f4e85234b27004ca",
-      "download_count": 3,
+      "download_count": 203,
       "created_at": "2026-10-21T05:15:13Z",
       "updated_at": "2026-10-21T05:15:13Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.62.0/status-darwin-amd64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4268210,
       "digest": "sha256:d874dfdbeb80cb12cd203d798bf584612d1af0ff0749ee01f9a3936842e54785",
-      "download_count": 3,
+      "download_count": 611,
       "created_at": "2026-10-21T05:15:13Z",
       "updated_at": "2026-10-21T05:15:13Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.62.0/status-darwin-arm64"
@@ -294,15 +294,15 @@
   "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. **Slim universal apps on Apple Silicon**: `mo slim` removes the Intel code from apps you own, slims each one on a copy that must pass code signing and Gatekeeper checks before it replaces the original, moves the original to the Trash, and needs no developer tools; preview with `mo slim --dry-run`.\n2. **Let your AI agent drive Mole**: The official Mole skill teaches Claude Code, Codex, Cursor and other agents to preview every cleanup with `--dry-run` and leave uninstalls and admin steps to you; install it with `npx skills add tw93/Mole -a claude-code codex cursor -g -y`.\n3. **Uninstall with personal data selected**: `mo uninstall --with-data <name>` starts with the app's settings and data selected, still lists them in the preview, and `D` lets you keep any path.\n4. **Clean more app leftovers**: Clean reaches Feishu and its sandboxed caches, WeChat web profiles, idle Helium signing clones and Futu NiuNiu update downloads while Futu is closed.\n5. **Correct external drive cleanup**: `mo clean --external` reports the space it actually freed, keeps the drive's Trash and protected Finder metadata, and sizes a temporary folder with an unreadable child instead of skipping it.\n6. **Safer uninstall prompts**: Homebrew cask password prompts stay in the foreground, every real uninstall needs an interactive confirmation, a dry run without a terminal ends with its plan, and app names with control characters print safely.\n7. **No Command Line Tools prompt on update**: On a Mac without developer tools, `mo update` and the installer no longer pop up the Command Line Tools installer, and both fall back to Git release tags when the GitHub API lookup fails.\n8. **Stop commands that ignore Ctrl-C**: A command that ignores the stop signal is now force-stopped two seconds after its time limit, so a stuck step can no longer hang a cleanup or uninstall.\n9. **Cleaner `mo remove`**: It removes Mole's shell completion lines, keeps your own lines and rc symlinks intact, and exits with an error when no terminal can confirm the removal.\n10. **Smoother Analyze and Purge**: Analyze keeps every entry browsable and refreshes a folder that changed right after its scan, and Purge re-scans a slow container folder one project at a time instead of skipping later artifacts.\n\n### 更新日志\n\n1. **在 Apple Silicon 上给通用 App 瘦身**：`mo slim` 会删掉你自己装的 App 里的 Intel 代码，每个 App 都先在副本上处理，副本通过代码签名和 Gatekeeper 检查后才替换原 App，原 App 移到废纸篓，整个过程不需要开发者工具，可以先用 `mo slim --dry-run` 预览。\n2. **让 AI Agent 帮你用 Mole**：官方 Mole skill 会让 Claude Code、Codex、Cursor 等 Agent 每次清理前先用 `--dry-run` 预览，卸载 App 和需要管理员权限的步骤留给你自己来，安装命令是 `npx skills add tw93/Mole -a claude-code codex cursor -g -y`。\n3. **卸载时默认选中个人数据**：`mo uninstall --with-data <名字>` 一开始就选中 App 的设置和数据，预览里仍会逐条列出，按 D 可以保留任意一条路径。\n4. **清理更多 App 残留**：clean 现在能清理飞书及其沙盒缓存、微信的网页 profile、闲置的 Helium 签名副本，以及富途牛牛关闭时留下的更新安装包。\n5. **外置硬盘清理更准确**：`mo clean --external` 报告的是实际清理出的空间，保留硬盘上的废纸篓和受保护的 Finder 元数据，临时目录里有读不到的子目录时也会照常计算大小，不再整项跳过。\n6. **卸载确认更稳妥**：Homebrew cask 的密码提示保持在前台，真实卸载必须在终端里确认，没有终端时的 dry run 列出计划后正常结束，名字里带控制字符的 App 也能安全显示。\n7. **更新时不再弹出命令行工具安装框**：没装开发者工具的 Mac 上，`mo update` 和安装脚本不会再弹出 Command Line Tools 安装框，GitHub API 查不到版本时也会改用 Git 的 release tag。\n8. **忽略 Ctrl-C 的命令也能停下**：某条命令不响应停止信号时，超过时间限制两秒后会被强制结束，清理和卸载不会再卡在这一步。\n9. **`mo remove` 卸得更干净**：会删掉 Mole 写入的 shell 补全行，保留你自己的配置行和 rc 文件的软链，没有终端可以确认时以错误退出。\n10. **Analyze 和 Purge 更顺手**：Analyze 的每一项都能继续浏览，扫描后马上有变化的目录也会刷新，Purge 遇到扫描很慢的容器目录时会逐个项目重扫，不再跳过后面的构建产物。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @viniciusdsandrade · @HangLark · @M-Hassan-Raza · @greyby · @r266-tech · @Showdown76py · @ragnarok22 · @Ctrl-Alb.\n\n### Mole Mac App\n\nIf you would rather work in a window than a terminal, [Mole Mac App](https://mole.fit/) covers cleaning, app removal, maintenance, disk analysis and live status, shows everything before it deletes, and adds tools in the menu bar. It costs $19 once, with free updates and a 14-day refund, and you can [download it here](https://mole.fit/download). The CLI stays free and open source.\n",
   "reactions": {
     "url": "https://api.github.com/repos/tw93/Mole/releases/419183332/reactions",
-    "total_count": 7,
-    "+1": 1,
+    "total_count": 29,
+    "+1": 10,
     "-1": 0,
-    "laugh": 1,
-    "hooray": 1,
+    "laugh": 2,
+    "hooray": 3,
     "confused": 0,
-    "heart": 2,
-    "rocket": 1,
-    "eyes": 1
+    "heart": 6,
+    "rocket": 6,
+    "eyes": 2
   },
   "mentions_count": 8
 }
