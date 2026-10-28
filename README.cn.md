@@ -14,13 +14,13 @@ x install Mole
 
 ## 代码洞察
 
-合计: **76,987** 行代码（覆盖前 5 种语言、共 **165** 个文件）。
+合计: **77,111** 行代码（覆盖前 5 种语言、共 **165** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Sh | 46,890 | 6,986 | 5,109 | 69 |
+| Sh | 46,972 | 7,012 | 5,119 | 69 |
 | Go | 24,809 | 1,399 | 2,783 | 74 |
-| Python | 2,774 | 123 | 359 | 17 |
+| Python | 2,816 | 126 | 365 | 17 |
 | Svg | 1,774 | 1 | 0 | 1 |
 | Bash | 463 | 101 | 64 | 4 |
 
@@ -32,40 +32,40 @@ x install Mole
 
 ## 发布
 
-- **最新版本**: `V1.39.0-windows` (2026-10-25)
-- **最近提交**: 2026-10-26
+- **最新版本**: `V1.65.0` (2026-10-27)
+- **最近提交**: 2026-10-27
 - **Release 含资产**: 7 个
 
 ## 流行度
 
-- **Star**: 73,022 · **Fork**: 2,573 · **开放 issue**: 1,136 · **贡献者**: 162
+- **Star**: 73,124 · **Fork**: 2,580 · **开放 issue**: 1,141 · **贡献者**: 162
 
 ## 累计统计
 
-- **发布数**: 85 · **已合并 PR**: 485 · **开放 PR**: 4 · **已关闭 issue**: 1124 · **开放 issue**: 12 · **提交数**: 3835
+- **发布数**: 86 · **已合并 PR**: 488 · **开放 PR**: 3 · **已关闭 issue**: 1134 · **开放 issue**: 7 · **提交数**: 3857
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 19 | 93 | 4 | 117 | 12 | 541 |
-| last60d | 2026-08-28 | 23 | 139 | 4 | 205 | 12 | 761 |
-| 90d | 2026-07-29 | 30 | 174 | 4 | 295 | 12 | 997 |
-| last180d | 2026-04-30 | 47 | 287 | 4 | 635 | 12 | 1603 |
-| 360d | 2025-11-01 | 81 | 479 | 4 | 1092 | 12 | 3286 |
-| last720d | 2024-11-06 | 85 | 485 | 4 | 1124 | 12 | 3835 |
+| 30d | 2026-09-28 | 20 | 89 | 3 | 124 | 7 | 563 |
+| last60d | 2026-08-29 | 24 | 140 | 3 | 213 | 7 | 783 |
+| 90d | 2026-07-30 | 31 | 177 | 3 | 304 | 7 | 1019 |
+| last180d | 2026-05-01 | 48 | 290 | 3 | 643 | 7 | 1625 |
+| 360d | 2025-11-02 | 82 | 481 | 3 | 1102 | 7 | 3308 |
+| last720d | 2024-11-07 | 86 | 488 | 3 | 1134 | 7 | 3857 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [analyze-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.64.0/analyze-darwin-amd64) | 4.1 MiB | `native/darwin/x64` |
-| [analyze-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.64.0/analyze-darwin-arm64) | 3.9 MiB | `native/darwin/arm64` |
-| [binaries-darwin-amd64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.64.0/binaries-darwin-amd64.tar.gz) | 3.3 MiB | `native/darwin/x64` |
-| [binaries-darwin-arm64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.64.0/binaries-darwin-arm64.tar.gz) | 3.1 MiB | `native/darwin/arm64` |
-| [SHA256SUMS](https://github.com/tw93/Mole/releases/download/V1.64.0/SHA256SUMS) | 536 B | `other` |
-| [status-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.64.0/status-darwin-amd64) | 4.2 MiB | `native/darwin/x64` |
-| [status-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.64.0/status-darwin-arm64) | 4.1 MiB | `native/darwin/arm64` |
+| [analyze-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.65.0/analyze-darwin-amd64) | 4.1 MiB | `native/darwin/x64` |
+| [analyze-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.65.0/analyze-darwin-arm64) | 3.9 MiB | `native/darwin/arm64` |
+| [binaries-darwin-amd64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.65.0/binaries-darwin-amd64.tar.gz) | 3.3 MiB | `native/darwin/x64` |
+| [binaries-darwin-arm64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.65.0/binaries-darwin-arm64.tar.gz) | 3.1 MiB | `native/darwin/arm64` |
+| [SHA256SUMS](https://github.com/tw93/Mole/releases/download/V1.65.0/SHA256SUMS) | 536 B | `other` |
+| [status-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.65.0/status-darwin-amd64) | 4.2 MiB | `native/darwin/x64` |
+| [status-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.65.0/status-darwin-arm64) | 4.1 MiB | `native/darwin/arm64` |
 
 ## 改进这些数据
 
@@ -76,4 +76,4 @@ Mole 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261027.yml` · 2026-10-27T05:47:26Z._
+_数据快照: `data/card/261028.yml` · 2026-10-28T06:33:34Z._
