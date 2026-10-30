@@ -14,11 +14,11 @@ x install Mole
 
 ## 代码洞察
 
-合计: **77,261** 行代码（覆盖前 5 种语言、共 **166** 个文件）。
+合计: **77,474** 行代码（覆盖前 5 种语言、共 **166** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Sh | 47,052 | 7,027 | 5,124 | 69 |
+| Sh | 47,265 | 7,082 | 5,140 | 69 |
 | Go | 24,809 | 1,399 | 2,783 | 74 |
 | Python | 2,886 | 127 | 367 | 18 |
 | Svg | 1,774 | 1 | 0 | 1 |
@@ -32,40 +32,40 @@ x install Mole
 
 ## 发布
 
-- **最新版本**: `V1.65.0` (2026-10-27)
-- **最近提交**: 2026-10-29
+- **最新版本**: `V1.66.0` (2026-10-29)
+- **最近提交**: 2026-10-30
 - **Release 含资产**: 7 个
 
 ## 流行度
 
-- **Star**: 73,222 · **Fork**: 2,585 · **开放 issue**: 1,143 · **贡献者**: 162
+- **Star**: 73,313 · **Fork**: 2,594 · **开放 issue**: 1,147 · **贡献者**: 162
 
 ## 累计统计
 
-- **发布数**: 86 · **已合并 PR**: 491 · **开放 PR**: 3 · **已关闭 issue**: 1141 · **开放 issue**: 2 · **提交数**: 3868
+- **发布数**: 87 · **已合并 PR**: 493 · **开放 PR**: 1 · **已关闭 issue**: 1143 · **开放 issue**: 4 · **提交数**: 3908
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 19 | 83 | 3 | 125 | 2 | 574 |
-| last60d | 2026-08-30 | 24 | 141 | 3 | 217 | 2 | 794 |
-| 90d | 2026-07-31 | 31 | 180 | 3 | 307 | 2 | 1030 |
-| last180d | 2026-05-02 | 48 | 293 | 3 | 648 | 2 | 1636 |
-| 360d | 2025-11-03 | 82 | 484 | 3 | 1109 | 2 | 3319 |
-| last720d | 2024-11-08 | 86 | 491 | 3 | 1141 | 2 | 3868 |
+| 30d | 2026-09-30 | 20 | 84 | 1 | 119 | 4 | 614 |
+| last60d | 2026-08-31 | 24 | 142 | 1 | 217 | 4 | 834 |
+| 90d | 2026-08-01 | 32 | 182 | 1 | 306 | 4 | 1070 |
+| last180d | 2026-05-03 | 49 | 295 | 1 | 647 | 4 | 1676 |
+| 360d | 2025-11-04 | 83 | 486 | 1 | 1111 | 4 | 3359 |
+| last720d | 2024-11-09 | 87 | 493 | 1 | 1143 | 4 | 3908 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [analyze-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.65.0/analyze-darwin-amd64) | 4.1 MiB | `native/darwin/x64` |
-| [analyze-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.65.0/analyze-darwin-arm64) | 3.9 MiB | `native/darwin/arm64` |
-| [binaries-darwin-amd64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.65.0/binaries-darwin-amd64.tar.gz) | 3.3 MiB | `native/darwin/x64` |
-| [binaries-darwin-arm64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.65.0/binaries-darwin-arm64.tar.gz) | 3.1 MiB | `native/darwin/arm64` |
-| [SHA256SUMS](https://github.com/tw93/Mole/releases/download/V1.65.0/SHA256SUMS) | 536 B | `other` |
-| [status-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.65.0/status-darwin-amd64) | 4.2 MiB | `native/darwin/x64` |
-| [status-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.65.0/status-darwin-arm64) | 4.1 MiB | `native/darwin/arm64` |
+| [analyze-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.66.0/analyze-darwin-amd64) | 4.1 MiB | `native/darwin/x64` |
+| [analyze-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.66.0/analyze-darwin-arm64) | 3.9 MiB | `native/darwin/arm64` |
+| [binaries-darwin-amd64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.66.0/binaries-darwin-amd64.tar.gz) | 3.3 MiB | `native/darwin/x64` |
+| [binaries-darwin-arm64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.66.0/binaries-darwin-arm64.tar.gz) | 3.1 MiB | `native/darwin/arm64` |
+| [SHA256SUMS](https://github.com/tw93/Mole/releases/download/V1.66.0/SHA256SUMS) | 536 B | `other` |
+| [status-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.66.0/status-darwin-amd64) | 4.2 MiB | `native/darwin/x64` |
+| [status-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.66.0/status-darwin-arm64) | 4.1 MiB | `native/darwin/arm64` |
 
 ## 改进这些数据
 
@@ -76,4 +76,4 @@ Mole 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261029.yml` · 2026-10-29T06:46:03Z._
+_数据快照: `data/card/261030.yml` · 2026-10-30T06:30:30Z._
