@@ -14,11 +14,11 @@ x install Mole
 
 ## Code insight
 
-Total: **78,360** lines of code across **168** files in the top 5 languages.
+Total: **78,428** lines of code across **168** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Sh | 47,665 | 7,199 | 5,158 | 69 |
+| Sh | 47,733 | 7,213 | 5,163 | 69 |
 | Go | 24,848 | 1,399 | 2,785 | 74 |
 | Python | 3,311 | 146 | 443 | 20 |
 | Svg | 1,796 | 1 | 0 | 1 |
@@ -32,28 +32,28 @@ Total: **78,360** lines of code across **168** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `V1.67.0` (2026-10-31)
-- **Last commit**: 2026-11-01
+- **Latest**: `V0.3.0-linux` (2026-11-02)
+- **Last commit**: 2026-11-02
 - **Assets in release**: 7
 
 ## Popularity
 
-- **Stars**: 73,487 · **Forks**: 2,602 · **Open issues**: 1,148 · **Contributors**: 164
+- **Stars**: 73,577 · **Forks**: 2,606 · **Open issues**: 1,152 · **Contributors**: 164
 
 ## Totals (cumulative)
 
-- **Releases**: 89 · **Merged PRs**: 497 · **Open PRs**: 1 · **Closed issues**: 1148 · **Open issues**: 0 · **Commits**: 3967
+- **Releases**: 92 · **Merged PRs**: 499 · **Open PRs**: 1 · **Closed issues**: 1151 · **Open issues**: 1 · **Commits**: 3988
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 22 | 84 | 1 | 112 | 0 | 501 |
-| last60d | 2026-09-02 | 26 | 137 | 1 | 214 | 0 | 843 |
-| 90d | 2026-08-03 | 32 | 175 | 1 | 298 | 0 | 1012 |
-| last180d | 2026-05-05 | 50 | 288 | 1 | 647 | 0 | 1664 |
-| 360d | 2025-11-06 | 85 | 490 | 1 | 1116 | 0 | 3395 |
-| last720d | 2024-11-11 | 89 | 497 | 1 | 1148 | 0 | 3967 |
+| 30d | 2026-10-03 | 25 | 84 | 1 | 113 | 1 | 522 |
+| last60d | 2026-09-03 | 29 | 137 | 1 | 209 | 1 | 864 |
+| 90d | 2026-08-04 | 34 | 176 | 1 | 291 | 1 | 1033 |
+| last180d | 2026-05-06 | 53 | 287 | 1 | 646 | 1 | 1685 |
+| 360d | 2025-11-07 | 88 | 492 | 1 | 1119 | 1 | 3416 |
+| last720d | 2024-11-12 | 92 | 499 | 1 | 1151 | 1 | 3988 |
 
 ## Release assets
 
@@ -76,4 +76,4 @@ Install metadata for Mole lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:50:30Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:52:37Z._
