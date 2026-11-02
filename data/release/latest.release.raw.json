@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4308976,
       "digest": "sha256:534dbfb61567f05b1a4c365ab417076e1d7d979aeaef4be94ad601902fe8ba8f",
-      "download_count": 216,
+      "download_count": 422,
       "created_at": "2026-10-31T02:17:53Z",
       "updated_at": "2026-10-31T02:17:54Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.67.0/analyze-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 4078482,
       "digest": "sha256:080e2879a62c603b90a29aa1a83bb262fe3a834588978c6a58f8aaf656b86352",
-      "download_count": 591,
+      "download_count": 1175,
       "created_at": "2026-10-31T02:17:53Z",
       "updated_at": "2026-10-31T02:17:54Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.67.0/analyze-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3488376,
       "digest": "sha256:23048feda4102794a7b4a20d4f4b59b1658051175af33e8b581ae6630905427f",
-      "download_count": 27,
+      "download_count": 54,
       "created_at": "2026-10-31T02:17:53Z",
       "updated_at": "2026-10-31T02:17:54Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.67.0/binaries-darwin-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3248068,
       "digest": "sha256:a4a2a2481b56414f5a491c5411e503b2b86f674fb21ef8c82521d45eef15a6ca",
-      "download_count": 57,
+      "download_count": 164,
       "created_at": "2026-10-31T02:17:53Z",
       "updated_at": "2026-10-31T02:17:54Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.67.0/binaries-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 536,
       "digest": "sha256:50b1f19109dade4111281e4a7619300c39fdb6f19cd785b4d8e68680c5f2965a",
-      "download_count": 739,
+      "download_count": 1464,
       "created_at": "2026-10-31T02:17:53Z",
       "updated_at": "2026-10-31T02:17:53Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.67.0/SHA256SUMS"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4410176,
       "digest": "sha256:33ae32c054b0fe63d401484aa0720ddad10fc7d9946ef0e76fd47d900d82fe20",
-      "download_count": 180,
+      "download_count": 362,
       "created_at": "2026-10-31T02:17:53Z",
       "updated_at": "2026-10-31T02:17:54Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.67.0/status-darwin-amd64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4268290,
       "digest": "sha256:50dc498cdccf687c0feddb5797311840bbeaff2be21c1b421c734f1893d1f271",
-      "download_count": 562,
+      "download_count": 1114,
       "created_at": "2026-10-31T02:17:53Z",
       "updated_at": "2026-10-31T02:17:54Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.67.0/status-darwin-arm64"
@@ -294,13 +294,13 @@
   "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. Clearer clean output: Rows for large folders now say what they hold, such as \"4 simulators\" or \"8 builds, May to Aug\", with the name linked to the folder instead of a command to copy; empty rows are gone, waits show a spinner, the first line of a dry run appears in 0.22s instead of 2.31s, and the result reads \"Removed: X · N items\".\n2. Browser and Adobe caches kept while in use: Chrome and Brave caches wait until the browser quits, and Adobe's media cache waits while Premiere Pro, After Effects or another Adobe video app runs.\n3. Downloaded models and running AI sessions are safe: `mo clean` no longer treats llama.cpp's downloaded models as a cache, and keeps an older Claude Code, cursor-agent or Copilot release while a session still runs on it.\n4. Mail attachments you edited stay: Only attachment copies nobody touched after Mail saved them are cleaned, instead of everything older than 30 days.\n5. Spotlight keeps your switches: `mo optimize` no longer turns Show Related Content back on.\n6. Faster start on a crowded temp folder: Mole lists the system temp folder once a day, so `mo --version` took 0.15s instead of 1.89s on one Mac.\n7. Progress for a large Trash: Emptying the Trash shows a count like 1200/16919 instead of a spinner that looks stuck.\n8. More caches covered: The Yarn Berry global cache and BrowserOS caches are cleaned, and owner commands such as `npm cache` and `pnpm store prune` show the space they actually freed.\n9. Honest uninstall summary: Moving an app to the Trash no longer says the space was freed, and the Docker hint points to `docker system df -v` for per-volume sizes.\n\n### 更新日志\n\n1. 清理结果更清楚：大文件夹的行会直接说明里面有什么，比如「4 simulators」「8 builds, May to Aug」，名字可以点开对应文件夹，不再让你复制命令自己跑；0B 的行不再显示，等待时都有加载动画，dry run 第一行从 2.31 秒提前到 0.22 秒出现，结果显示为「Removed: X · N items」。\n2. 浏览器和 Adobe 缓存用着时不清：Chrome 和 Brave 的缓存会等浏览器退出，Premiere Pro、After Effects 等 Adobe 视频软件运行时也不清理它们的媒体缓存。\n3. 下载的模型和正在跑的 AI 会话不受影响：`mo clean` 不再把 llama.cpp 下载的模型当缓存，Claude Code、cursor-agent、Copilot 的旧版本只要还有会话在用就保留。\n4. 改过的邮件附件会保留：只清理 Mail 保存后没人动过的附件副本，不再按超过 30 天一刀切。\n5. Spotlight 设置不再被改回：`mo optimize` 之后「显示相关内容」不会再被重新打开。\n6. 临时目录很满时启动更快：Mole 每天只扫一次系统临时目录，一台 Mac 上 `mo --version` 从 1.89 秒降到 0.15 秒。\n7. 大废纸篓有进度：清空废纸篓时显示「1200/16919」这样的计数，不再像卡住了。\n8. 覆盖更多缓存：会清理 Yarn Berry 全局缓存和 BrowserOS 缓存，`npm cache`、`pnpm store prune` 这类工具自己的清理命令也会显示实际清理出的空间。\n9. 卸载结果说法更准：应用移到废纸篓时不再说空间已释放，Docker 提示改为 `docker system df -v`，能看到每个卷的大小。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @rbk7g5y8nb-crypto · @r266-tech · @thecoldblooded.\n\n### Mole Mac App\n\nIf you would rather work in a window than a terminal, [Mole Mac App](https://mole.fit/) covers cleaning, app removal, maintenance, disk analysis and live status, shows everything before it deletes, and adds tools in the menu bar. It costs $19 once, with free updates and a 14-day refund, and you can [download it here](https://mole.fit/download). The CLI stays free and open source.\n",
   "reactions": {
     "url": "https://api.github.com/repos/tw93/Mole/releases/429665721/reactions",
-    "total_count": 12,
+    "total_count": 13,
     "+1": 6,
     "-1": 0,
     "laugh": 1,
     "hooray": 1,
     "confused": 0,
-    "heart": 1,
+    "heart": 2,
     "rocket": 2,
     "eyes": 1
   },
