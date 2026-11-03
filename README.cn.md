@@ -14,15 +14,15 @@ x install Mole
 
 ## 代码洞察
 
-合计: **78,428** 行代码（覆盖前 5 种语言、共 **168** 个文件）。
+合计: **79,076** 行代码（覆盖前 5 种语言、共 **169** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Sh | 47,733 | 7,213 | 5,163 | 69 |
-| Go | 24,848 | 1,399 | 2,785 | 74 |
-| Python | 3,311 | 146 | 443 | 20 |
-| Svg | 1,796 | 1 | 0 | 1 |
-| Bash | 463 | 101 | 64 | 4 |
+| Sh | 47,890 | 7,292 | 5,165 | 69 |
+| Go | 25,287 | 1,428 | 2,803 | 75 |
+| Python | 3,351 | 152 | 448 | 20 |
+| Svg | 1,807 | 1 | 0 | 1 |
+| Bash | 464 | 105 | 65 | 4 |
 
 ## 源代码
 
@@ -32,40 +32,40 @@ x install Mole
 
 ## 发布
 
-- **最新版本**: `V0.3.0-linux` (2026-11-02)
-- **最近提交**: 2026-11-02
+- **最新版本**: `V1.68.0` (2026-11-03)
+- **最近提交**: 2026-11-03
 - **Release 含资产**: 7 个
 
 ## 流行度
 
-- **Star**: 73,577 · **Fork**: 2,606 · **开放 issue**: 1,152 · **贡献者**: 164
+- **Star**: 73,680 · **Fork**: 2,613 · **开放 issue**: 1,155 · **贡献者**: 165
 
 ## 累计统计
 
-- **发布数**: 92 · **已合并 PR**: 499 · **开放 PR**: 1 · **已关闭 issue**: 1151 · **开放 issue**: 1 · **提交数**: 3988
+- **发布数**: 94 · **已合并 PR**: 503 · **开放 PR**: 1 · **已关闭 issue**: 1153 · **开放 issue**: 2 · **提交数**: 4029
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 25 | 84 | 1 | 113 | 1 | 522 |
-| last60d | 2026-09-03 | 29 | 137 | 1 | 209 | 1 | 864 |
-| 90d | 2026-08-04 | 34 | 176 | 1 | 291 | 1 | 1033 |
-| last180d | 2026-05-06 | 53 | 287 | 1 | 646 | 1 | 1685 |
-| 360d | 2025-11-07 | 88 | 492 | 1 | 1119 | 1 | 3416 |
-| last720d | 2024-11-12 | 92 | 499 | 1 | 1151 | 1 | 3988 |
+| 30d | 2026-10-04 | 26 | 85 | 1 | 114 | 2 | 563 |
+| last60d | 2026-09-04 | 31 | 135 | 1 | 208 | 2 | 905 |
+| 90d | 2026-08-05 | 36 | 180 | 1 | 288 | 2 | 1074 |
+| last180d | 2026-05-07 | 55 | 291 | 1 | 648 | 2 | 1726 |
+| 360d | 2025-11-08 | 90 | 496 | 1 | 1121 | 2 | 3457 |
+| last720d | 2024-11-13 | 94 | 503 | 1 | 1153 | 2 | 4029 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [analyze-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.67.0/analyze-darwin-amd64) | 4.1 MiB | `native/darwin/x64` |
-| [analyze-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.67.0/analyze-darwin-arm64) | 3.9 MiB | `native/darwin/arm64` |
-| [binaries-darwin-amd64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.67.0/binaries-darwin-amd64.tar.gz) | 3.3 MiB | `native/darwin/x64` |
-| [binaries-darwin-arm64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.67.0/binaries-darwin-arm64.tar.gz) | 3.1 MiB | `native/darwin/arm64` |
-| [SHA256SUMS](https://github.com/tw93/Mole/releases/download/V1.67.0/SHA256SUMS) | 536 B | `other` |
-| [status-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.67.0/status-darwin-amd64) | 4.2 MiB | `native/darwin/x64` |
-| [status-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.67.0/status-darwin-arm64) | 4.1 MiB | `native/darwin/arm64` |
+| [analyze-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.68.0/analyze-darwin-amd64) | 4.1 MiB | `native/darwin/x64` |
+| [analyze-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.68.0/analyze-darwin-arm64) | 3.9 MiB | `native/darwin/arm64` |
+| [binaries-darwin-amd64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.68.0/binaries-darwin-amd64.tar.gz) | 3.3 MiB | `native/darwin/x64` |
+| [binaries-darwin-arm64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.68.0/binaries-darwin-arm64.tar.gz) | 3.1 MiB | `native/darwin/arm64` |
+| [SHA256SUMS](https://github.com/tw93/Mole/releases/download/V1.68.0/SHA256SUMS) | 536 B | `other` |
+| [status-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.68.0/status-darwin-amd64) | 4.2 MiB | `native/darwin/x64` |
+| [status-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.68.0/status-darwin-arm64) | 4.1 MiB | `native/darwin/arm64` |
 
 ## 改进这些数据
 
@@ -76,4 +76,4 @@ Mole 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261102.yml` · 2026-11-02T06:52:38Z._
+_数据快照: `data/card/261103.yml` · 2026-11-03T07:39:12Z._
