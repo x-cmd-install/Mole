@@ -14,14 +14,14 @@ x install Mole
 
 ## Code insight
 
-Total: **79,087** lines of code across **169** files in the top 5 languages.
+Total: **79,262** lines of code across **171** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Sh | 47,890 | 7,292 | 5,165 | 69 |
-| Go | 25,298 | 1,432 | 2,803 | 75 |
+| Sh | 47,964 | 7,333 | 5,169 | 70 |
+| Go | 25,366 | 1,452 | 2,806 | 76 |
 | Python | 3,351 | 152 | 448 | 20 |
-| Svg | 1,807 | 1 | 0 | 1 |
+| Svg | 1,840 | 1 | 0 | 1 |
 | Bash | 464 | 105 | 65 | 4 |
 
 ## Source
@@ -32,40 +32,40 @@ Total: **79,087** lines of code across **169** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `V0.4.0-linux` (2026-11-04)
-- **Last commit**: 2026-11-04
+- **Latest**: `V1.69.0` (2026-11-04)
+- **Last commit**: 2026-11-05
 - **Assets in release**: 7
 
 ## Popularity
 
-- **Stars**: 73,801 · **Forks**: 2,616 · **Open issues**: 1,160 · **Contributors**: 168
+- **Stars**: 73,951 · **Forks**: 2,626 · **Open issues**: 1,162 · **Contributors**: 168
 
 ## Totals (cumulative)
 
-- **Releases**: 95 · **Merged PRs**: 507 · **Open PRs**: 0 · **Closed issues**: 1157 · **Open issues**: 3 · **Commits**: 4038
+- **Releases**: 97 · **Merged PRs**: 508 · **Open PRs**: 0 · **Closed issues**: 1162 · **Open issues**: 0 · **Commits**: 4066
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 27 | 81 | 0 | 115 | 3 | 572 |
-| last60d | 2026-09-05 | 32 | 138 | 0 | 207 | 3 | 914 |
-| 90d | 2026-08-06 | 37 | 182 | 0 | 286 | 3 | 1083 |
-| last180d | 2026-05-08 | 56 | 292 | 0 | 650 | 3 | 1735 |
-| 360d | 2025-11-09 | 91 | 500 | 0 | 1125 | 3 | 3466 |
-| last720d | 2024-11-14 | 95 | 507 | 0 | 1157 | 3 | 4038 |
+| 30d | 2026-10-06 | 28 | 80 | 0 | 117 | 0 | 600 |
+| last60d | 2026-09-06 | 34 | 139 | 0 | 210 | 0 | 942 |
+| 90d | 2026-08-07 | 39 | 183 | 0 | 283 | 0 | 1111 |
+| last180d | 2026-05-09 | 58 | 293 | 0 | 652 | 0 | 1763 |
+| 360d | 2025-11-10 | 92 | 500 | 0 | 1129 | 0 | 3494 |
+| last720d | 2024-11-15 | 97 | 508 | 0 | 1162 | 0 | 4066 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [analyze-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.68.0/analyze-darwin-amd64) | 4.1 MiB | `native/darwin/x64` |
-| [analyze-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.68.0/analyze-darwin-arm64) | 3.9 MiB | `native/darwin/arm64` |
-| [binaries-darwin-amd64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.68.0/binaries-darwin-amd64.tar.gz) | 3.3 MiB | `native/darwin/x64` |
-| [binaries-darwin-arm64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.68.0/binaries-darwin-arm64.tar.gz) | 3.1 MiB | `native/darwin/arm64` |
-| [SHA256SUMS](https://github.com/tw93/Mole/releases/download/V1.68.0/SHA256SUMS) | 536 B | `other` |
-| [status-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.68.0/status-darwin-amd64) | 4.2 MiB | `native/darwin/x64` |
-| [status-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.68.0/status-darwin-arm64) | 4.1 MiB | `native/darwin/arm64` |
+| [analyze-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.69.0/analyze-darwin-amd64) | 4.1 MiB | `native/darwin/x64` |
+| [analyze-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.69.0/analyze-darwin-arm64) | 3.9 MiB | `native/darwin/arm64` |
+| [binaries-darwin-amd64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.69.0/binaries-darwin-amd64.tar.gz) | 3.3 MiB | `native/darwin/x64` |
+| [binaries-darwin-arm64.tar.gz](https://github.com/tw93/Mole/releases/download/V1.69.0/binaries-darwin-arm64.tar.gz) | 3.1 MiB | `native/darwin/arm64` |
+| [SHA256SUMS](https://github.com/tw93/Mole/releases/download/V1.69.0/SHA256SUMS) | 536 B | `other` |
+| [status-darwin-amd64](https://github.com/tw93/Mole/releases/download/V1.69.0/status-darwin-amd64) | 4.2 MiB | `native/darwin/x64` |
+| [status-darwin-arm64](https://github.com/tw93/Mole/releases/download/V1.69.0/status-darwin-arm64) | 4.1 MiB | `native/darwin/arm64` |
 
 ## Improve this data
 
@@ -76,4 +76,4 @@ Install metadata for Mole lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:14:20Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:32:58Z._
