@@ -2,7 +2,7 @@
 
 [English version](./README.md)
 
-🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.
+🐹 Open-source Mac and PC cleaner. Keep your machine clean, light, and running like new. Fast CLI, plus native Mac and Windows apps.
 
 [![x-cmd/install — Mole Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/Mole.svg?lang=zh)](https://x-cmd.com/install/Mole)
 
@@ -14,14 +14,14 @@ x install Mole
 
 ## 代码洞察
 
-合计: **79,481** 行代码（覆盖前 5 种语言、共 **171** 个文件）。
+合计: **79,537** 行代码（覆盖前 5 种语言、共 **171** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Sh | 48,172 | 7,391 | 5,185 | 70 |
+| Sh | 48,195 | 7,402 | 5,186 | 70 |
 | Go | 25,366 | 1,452 | 2,806 | 76 |
 | Python | 3,351 | 152 | 448 | 20 |
-| Svg | 1,851 | 1 | 0 | 1 |
+| Svg | 1,884 | 1 | 0 | 1 |
 | Bash | 464 | 105 | 65 | 4 |
 
 ## 源代码
@@ -33,27 +33,27 @@ x install Mole
 ## 发布
 
 - **最新版本**: `V1.69.0` (2026-11-04)
-- **最近提交**: 2026-11-06
+- **最近提交**: 2026-11-07
 - **Release 含资产**: 7 个
 
 ## 流行度
 
-- **Star**: 74,060 · **Fork**: 2,639 · **开放 issue**: 1,167 · **贡献者**: 169
+- **Star**: 74,142 · **Fork**: 2,651 · **开放 issue**: 1,174 · **贡献者**: 172
 
 ## 累计统计
 
-- **发布数**: 97 · **已合并 PR**: 510 · **开放 PR**: 2 · **已关闭 issue**: 1164 · **开放 issue**: 3 · **提交数**: 4080
+- **发布数**: 97 · **已合并 PR**: 515 · **开放 PR**: 2 · **已关闭 issue**: 1169 · **开放 issue**: 5 · **提交数**: 4104
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 28 | 81 | 2 | 113 | 3 | 614 |
-| last60d | 2026-09-07 | 34 | 139 | 2 | 208 | 3 | 956 |
-| 90d | 2026-08-08 | 39 | 185 | 2 | 282 | 3 | 1125 |
-| last180d | 2026-05-10 | 58 | 295 | 2 | 652 | 3 | 1777 |
-| 360d | 2025-11-11 | 92 | 502 | 2 | 1131 | 3 | 3508 |
-| last720d | 2024-11-16 | 97 | 510 | 2 | 1164 | 3 | 4080 |
+| 30d | 2026-10-08 | 28 | 85 | 2 | 117 | 5 | 637 |
+| last60d | 2026-09-08 | 34 | 142 | 2 | 212 | 5 | 979 |
+| 90d | 2026-08-09 | 38 | 189 | 2 | 286 | 5 | 1148 |
+| last180d | 2026-05-11 | 57 | 298 | 2 | 653 | 5 | 1800 |
+| 360d | 2025-11-12 | 92 | 507 | 2 | 1136 | 5 | 3531 |
+| last720d | 2024-11-17 | 97 | 515 | 2 | 1169 | 5 | 4104 |
 
 ## Release 资产
 
@@ -76,4 +76,4 @@ Mole 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261106.yml` · 2026-11-06T07:27:10Z._
+_数据快照: `data/card/261107.yml` · 2026-11-07T06:50:37Z._
