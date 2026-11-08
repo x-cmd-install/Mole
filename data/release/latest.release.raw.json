@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4313072,
       "digest": "sha256:0470c98f217fd831e85d5f36147ae9703adb9795308bc7eaf2f6abe73d41a97c",
-      "download_count": 533,
+      "download_count": 709,
       "created_at": "2026-11-04T10:02:41Z",
       "updated_at": "2026-11-04T10:02:42Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.69.0/analyze-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 4078482,
       "digest": "sha256:cb295daa75d11140800d463bdfb2d7a020ce740e1d254b1bf110ba0f2e0d7f36",
-      "download_count": 1731,
+      "download_count": 2157,
       "created_at": "2026-11-04T10:02:41Z",
       "updated_at": "2026-11-04T10:02:42Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.69.0/analyze-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3489066,
       "digest": "sha256:a70b7fb607658fc6568a5f1c614322e8cabdc3e5490068ec1e8586d5fbc1c30e",
-      "download_count": 81,
+      "download_count": 102,
       "created_at": "2026-11-04T10:02:41Z",
       "updated_at": "2026-11-04T10:02:42Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.69.0/binaries-darwin-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3250161,
       "digest": "sha256:34130aec4b24f77f4efa601cb1e96dfd80a90d4d122f0ee393985997fabe9863",
-      "download_count": 189,
+      "download_count": 231,
       "created_at": "2026-11-04T10:02:43Z",
       "updated_at": "2026-11-04T10:02:43Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.69.0/binaries-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 536,
       "digest": "sha256:ca555f86abfcd925c6a8ba573abf7c1653f609484891c2573be0fbb72e7f5020",
-      "download_count": 2160,
+      "download_count": 2715,
       "created_at": "2026-11-04T10:02:41Z",
       "updated_at": "2026-11-04T10:02:42Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.69.0/SHA256SUMS"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4414272,
       "digest": "sha256:f1648c718dbedfb33753da9180ebf2b64f34c672a841f284b7b1617d70f529e7",
-      "download_count": 471,
+      "download_count": 625,
       "created_at": "2026-11-04T10:02:41Z",
       "updated_at": "2026-11-04T10:02:42Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.69.0/status-darwin-amd64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4268290,
       "digest": "sha256:e92ab950e058610af490eaf0045f7509c0b9a9791272968f96fbccbe79d7d985",
-      "download_count": 1692,
+      "download_count": 2093,
       "created_at": "2026-11-04T10:02:41Z",
       "updated_at": "2026-11-04T10:02:43Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.69.0/status-darwin-arm64"
