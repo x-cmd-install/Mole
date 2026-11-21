@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4461264,
       "digest": "sha256:cff18ca73fe15a837af0afddcfe129f34135d257b20d05b982de55f2661c7539",
-      "download_count": 432,
+      "download_count": 605,
       "created_at": "2026-11-18T15:14:07Z",
       "updated_at": "2026-11-18T15:14:07Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.73.0/analyze-darwin-amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 4215490,
       "digest": "sha256:daf15b96175b00beff0eb41890bf108c18fdc4ba461485cfb5522b34ff4f6b4c",
-      "download_count": 1306,
+      "download_count": 1848,
       "created_at": "2026-11-18T15:14:07Z",
       "updated_at": "2026-11-18T15:14:07Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.73.0/analyze-darwin-arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3554265,
       "digest": "sha256:87a3b4d1e0b7c2c565bc0f13f51d7a2856f29cc24908a9d2588167fdb50e4858",
-      "download_count": 59,
+      "download_count": 88,
       "created_at": "2026-11-18T15:14:07Z",
       "updated_at": "2026-11-18T15:14:07Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.73.0/binaries-darwin-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3313297,
       "digest": "sha256:072e432e0f150a579b7fc704ad746a657035c8763347e73c0d3cd0340348ce81",
-      "download_count": 156,
+      "download_count": 228,
       "created_at": "2026-11-18T15:14:07Z",
       "updated_at": "2026-11-18T15:14:07Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.73.0/binaries-darwin-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 536,
       "digest": "sha256:b966781e4bd229b3caa73847fd08f5da57a52b8248454ad22694512c770f6563",
-      "download_count": 1629,
+      "download_count": 2290,
       "created_at": "2026-11-18T15:14:07Z",
       "updated_at": "2026-11-18T15:14:07Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.73.0/SHA256SUMS"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4418448,
       "digest": "sha256:bcfb72d83fe7de1bfb5af8c29d1baed20ee43c9b452541f4a02c8b0597ce4090",
-      "download_count": 384,
+      "download_count": 531,
       "created_at": "2026-11-18T15:14:07Z",
       "updated_at": "2026-11-18T15:14:07Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.73.0/status-darwin-amd64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 4284882,
       "digest": "sha256:44cabd48bd9c2af57a88d3ce02bbc5c91b2a6209c064c6b4c01d69a1a13c6abf",
-      "download_count": 1231,
+      "download_count": 1753,
       "created_at": "2026-11-18T15:14:07Z",
       "updated_at": "2026-11-18T15:14:07Z",
       "browser_download_url": "https://github.com/tw93/Mole/releases/download/V1.73.0/status-darwin-arm64"
@@ -294,8 +294,8 @@
   "body": "<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. `mo clean` and `mo optimize` finish the run: A size check that fails on one item, a slow Clang cache lookup, or an optimize task whose probe times out now skips only that item or task instead of stopping everything after it.\n2. Uninstall finds more app data: Apps with a release number in their name, such as Alfred 4, now offer their data folder and settings app preferences.\n3. `mo clean` covers more caches: The Dart analysis cache is cleaned while no Dart tool is running, and partial Aerial wallpaper downloads that refill the disk are removed after an hour.\n4. Accurate sizes in `mo analyze`: Files with hard links in several Home folders are counted once, and volumes mounted inside the home folder or Downloads are no longer added to the Home and Old Downloads totals.\n5. Clearer simulator rows: `mo analyze` shows each simulator's name and system version instead of only its identifier, and filtering matches those names.\n6. Other fixes: The cursor in `mo analyze` no longer lands on hidden rows, `mo update --nightly` keeps working with large GitHub responses, and fish completes the shell name after `mo completion`.\n7. Performance: `mo clean` skips sizing a browser's caches while it is open, and `mo purge` checks the Xcode developer path once per run.\n\n### 更新日志\n\n1. `mo clean` 与 `mo optimize` 会完整执行：某一项大小检查失败、Clang 缓存路径查询过慢或优化任务的检查超时，现在只跳过该项或该任务，不再中止之后的所有步骤。\n2. 卸载能找到更多应用数据：名称中带版本号的应用（例如 Alfred 4）会列出其数据目录和设置应用的偏好设置。\n3. `mo clean` 覆盖更多缓存：没有 Dart 工具运行时会清理 Dart 分析缓存，反复占满磁盘的动态壁纸未完成下载会在闲置一小时后清理。\n4. `mo analyze` 大小更准确：硬链接分布在多个主目录文件夹中的文件只计算一次，挂载在主目录或 Downloads 下的卷不再计入主目录和旧下载的总量。\n5. 模拟器显示更清晰：`mo analyze` 显示每个模拟器的名称和系统版本，不再只显示标识符，筛选也能匹配这些名称。\n6. 其他修复：`mo analyze` 的光标不再停在隐藏的行上，GitHub 返回较大的响应时 `mo update --nightly` 仍能正常工作，fish 在 `mo completion` 后可以补全 Shell 名称。\n7. 性能：浏览器打开时 `mo clean` 不再统计其缓存大小，`mo purge` 每次运行只查询一次 Xcode 开发者路径。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @viniciusdsandrade · @sebastianbreguel · @r266-tech · @d4nielantoni · @chiemekae · @charsdavy · @valentynapolienova.\n\n### Mole Mac App\n\nIf you would rather work in a window than a terminal, [Mole Mac App](https://mole.fit/) covers cleaning, app removal, maintenance, disk analysis and live status, shows everything before it deletes, and adds tools in the menu bar. It costs $19 once, with free updates and a 14-day refund, and you can [download it here](https://mole.fit/download). The CLI stays free and open source.\n",
   "reactions": {
     "url": "https://api.github.com/repos/tw93/Mole/releases/450160697/reactions",
-    "total_count": 22,
-    "+1": 9,
+    "total_count": 23,
+    "+1": 10,
     "-1": 0,
     "laugh": 2,
     "hooray": 3,
