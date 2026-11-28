@@ -2,111 +2,111 @@ about:
   description: "🐹 Open-source Mac and PC cleaner. Keep your machine clean, light, and running like new. Fast CLI, plus native Mac and Windows apps."
   license: GPL-3.0
   homepage: https://mole.fit
-  head: 3da229e
+  head: c4aa941
   archived: false
-  latestVersion: "V1.74.0"
-  latestRelease: "V1.74.0"
+  latestVersion: "V1.75.0"
+  latestRelease: "V1.75.0"
   latestPrerelease: "v1.30.0-windows"
-  collectedAt: 2026-11-27T09:06:56Z
+  collectedAt: 2026-11-28T09:03:23Z
 timeline:
   created: 2025-09-23
-  lastCommit: 2026-11-27
-  lastVersion: 2026-11-21
-  lastRelease: 2026-11-21
+  lastCommit: 2026-11-28
+  lastVersion: 2026-11-27
+  lastRelease: 2026-11-27
   lastPrerelease: 2026-08-16
 popularity:
-  star: 76381
+  star: 76478
   watcher: 153
-  fork: 2754
-  release: 110
-  contributor: 183
-  pullRequest: 795
-  issue: 1250
+  fork: 2758
+  release: 113
+  contributor: 185
+  pullRequest: 807
+  issue: 1258
 language:
-  Shell: 6156998
-  Go: 992701
+  Shell: 6213244
+  Go: 996999
   Python: 185962
   Nix: 6689
   JavaScript: 2274
   Makefile: 2235
-totalBytes: 7346859
+totalBytes: 7407403
 recent:
   last30d:
-    since: 2026-10-28
-    release: 24
-    mergedPR: 111
+    since: 2026-10-29
+    release: 27
+    mergedPR: 119
     openPR: 1
-    closedIssue: 107
-    openIssue: 1
-    commit: 522
+    closedIssue: 108
+    openIssue: 3
+    commit: 548
   last60d:
-    since: 2026-09-28
-    release: 44
-    mergedPR: 205
+    since: 2026-09-29
+    release: 46
+    mergedPR: 204
     openPR: 1
     closedIssue: 239
-    openIssue: 1
-    commit: 1133
+    openIssue: 3
+    commit: 1159
   last90d:
-    since: 2026-08-29
-    release: 48
-    mergedPR: 256
+    since: 2026-08-30
+    release: 51
+    mergedPR: 262
     openPR: 1
-    closedIssue: 328
-    openIssue: 1
-    commit: 1352
+    closedIssue: 331
+    openIssue: 3
+    commit: 1378
   last180d:
-    since: 2026-05-31
-    release: 66
-    mergedPR: 350
+    since: 2026-06-01
+    release: 69
+    mergedPR: 358
     openPR: 1
-    closedIssue: 632
-    openIssue: 1
-    commit: 1936
+    closedIssue: 631
+    openIssue: 3
+    commit: 1962
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 100
-    mergedPR: 591
+    mergedPR: 599
     openPR: 1
-    closedIssue: 1173
-    openIssue: 1
-    commit: 3606
+    closedIssue: 1178
+    openIssue: 3
+    commit: 3632
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 100
-    mergedPR: 603
+    mergedPR: 611
     openPR: 1
-    closedIssue: 1249
-    openIssue: 1
-    commit: 4425
+    closedIssue: 1255
+    openIssue: 3
+    commit: 4448
 total:
-  release: 110
-  mergedPR: 603
+  release: 113
+  mergedPR: 615
   openPR: 1
-  closedIssue: 1249
-  openIssue: 1
-  commit: 4425
+  closedIssue: 1255
+  openIssue: 3
+  commit: 4448
 ---
 path: /home/runner/.x-repo/github.com/tw93/Mole
-collectedAt: 2026-11-27T09:07:33Z
+collectedAt: 2026-11-28T09:03:51Z
 loc:
   Sh:
-    code: 50605
-    comments: 7945
-    blanks: 5278
+    code: 50999
+    comments: 8006
+    blanks: 5309
     files: 70
   Go:
-    code: 27850
-    comments: 1686
-    blanks: 3034
-    files: 85
+    code: 27959
+    comments: 1693
+    blanks: 3043
+    files: 86
   Python:
     code: 3779
     comments: 174
     blanks: 489
     files: 23
   Svg:
-    code: 2016
+    code: 2038
     comments: 1
     blanks: 0
     files: 1
@@ -142,8 +142,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 5891
-    blanks: 2339
+    comments: 5966
+    blanks: 2366
     files: 28
   Text:
     code: 0
@@ -151,11 +151,11 @@ loc:
     blanks: 22
     files: 2
 total:
-  code: 85700
-  comments: 15997
-  blanks: 11297
-  files: 224
+  code: 86225
+  comments: 16140
+  blanks: 11364
+  files: 225
 ---
 
 ---
-{"id":453748188,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOP1JGW84bC6Xc","tag_name":"V1.74.0","target_commitish":"main","name":"V1.74.0 Lucid","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-11-21T14:05:34Z","updated_at":"2026-11-21T14:35:03Z","published_at":"2026-11-21T14:27:22Z","assets":[{"id":775833679,"node_id":"RA_kwDOP1JGW84uPkhP","name":"analyze-darwin-amd64","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":4465360,"digest":"sha256:809f518aa94a2d938a842d33e7595948df9190e083b193250117b841ceb42e54","download_count":1178,"created_at":"2026-11-21T14:27:21Z","updated_at":"2026-11-21T14:27:21Z"},{"id":775833673,"node_id":"RA_kwDOP1JGW84uPkhJ","name":"analyze-darwin-arm64","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":4232002,"digest":"sha256:fa7d8951407db4c0b0172744be4fdb1ce12a84f199b6ff6fd6a91fc8220d5183","download_count":3372,"created_at":"2026-11-21T14:27:20Z","updated_at":"2026-11-21T14:27:21Z"},{"id":775833670,"node_id":"RA_kwDOP1JGW84uPkhG","name":"binaries-darwin-amd64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":3556213,"digest":"sha256:de548b62e0da1a2108e44ec12e63303296d160af9a6a0dc44a9ce8deae061237","download_count":174,"created_at":"2026-11-21T14:27:20Z","updated_at":"2026-11-21T14:27:21Z"},{"id":775833683,"node_id":"RA_kwDOP1JGW84uPkhT","name":"binaries-darwin-arm64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":3314844,"digest":"sha256:3ac3de93c539c8c194ba7f11182a281df08f971e01c6a5081ef7960a0cae95ca","download_count":426,"created_at":"2026-11-21T14:27:21Z","updated_at":"2026-11-21T14:27:21Z"},{"id":775833678,"node_id":"RA_kwDOP1JGW84uPkhO","name":"SHA256SUMS","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":536,"digest":"sha256:bb67e69ccd9a9daa058942c55fd3e04447a5a14a30c4576971c7188fbdf7b2b2","download_count":4141,"created_at":"2026-11-21T14:27:21Z","updated_at":"2026-11-21T14:27:21Z"},{"id":775833669,"node_id":"RA_kwDOP1JGW84uPkhF","name":"status-darwin-amd64","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":4418448,"digest":"sha256:43e92d0cdeb7de0f341432d2d25b6b54ef4faf4c321699c8d460dfb2647b49c7","download_count":974,"created_at":"2026-11-21T14:27:20Z","updated_at":"2026-11-21T14:27:21Z"},{"id":775833680,"node_id":"RA_kwDOP1JGW84uPkhQ","name":"status-darwin-arm64","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":4284882,"digest":"sha256:39f53f435a841861e20915022d08937be72d7b8b7d96b57e4b14644e83779589","download_count":3149,"created_at":"2026-11-21T14:27:21Z","updated_at":"2026-11-21T14:27:21Z"}],"body":"<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. Cleaning progress names the item: `mo clean` shows the section, the position and the item being removed, such as `Cleaning User app cache 3/12 · com.microsoft…ShipIt`, so a long removal no longer looks stuck.\n2. Online-only folders are skipped: iCloud placeholders in Documents, online-only CloudStorage providers and Next.js cache entries that live only in the cloud are no longer downloaded during `mo clean`, which ends the hangs and the skipped CloudStorage project caches.\n3. Accurate totals: Rows that print their own size and the space Homebrew cleanup reports freeing now count in the `mo clean` total.\n4. Previews name what they skipped: `mo clean --dry-run` ends with the families it left out while Xcode or the Simulator was open, so a later real run no longer removes paths the preview never listed.\n5. Clearer memory diagnosis: `mo optimize` judges memory by the macOS pressure level instead of swap use and lists the apps holding the most on one line, and WindowServer and CoreSimulator disk images are no longer reported as bottlenecks.\n6. Safer cleanup: A privileged helper is not offered when Spotlight cannot confirm its app is gone, `mo analyze` refuses to move the temporary folders ssh-agent and tmux depend on, and apps without a `Contents` folder, such as NetBird, no longer skip App leftovers.\n7. More caches and records: Postman HTTP and code caches are cleaned, cleanups run through gh, go, simctl, tart and Homebrew appear in `mo history`, and terminals that support OSC 7501 show the cleanup state.\n8. Other fixes: The uninstall confirm screen shows the personal data key on its heading and redraws cleanly after choosing, paths next to the home folder are no longer shortened to `~`, and logged sizes step up to the next unit at 1000KB and 1000MB.\n\n### 更新日志\n\n1. 清理进度显示当前项目：`mo clean` 显示所在栏目、进度和正在清理的项目，例如 `Cleaning User app cache 3/12 · com.microsoft…ShipIt`，耗时较长的清理不再像是卡住。\n2. 跳过仅存于云端的文件夹：`mo clean` 不再下载 Documents 中的 iCloud 占位文件、仅在线的 CloudStorage 云盘和只存在云端的 Next.js 缓存，扫描不再卡住，CloudStorage 中的项目缓存也不再被整体跳过。\n3. 总量统计更准确：自行显示大小的条目和 Homebrew 清理报告释放的空间现在计入 `mo clean` 的总量。\n4. 预览注明跳过的内容：Xcode 或模拟器运行时，`mo clean --dry-run` 会在末尾列出未纳入预览的类别，之后的正式清理不再删除预览中没有列出的路径。\n5. 内存诊断更清晰：`mo optimize` 按 macOS 内存压力等级而不是 swap 用量判断内存，并在一行内列出占用最多的应用，WindowServer 和 CoreSimulator 磁盘镜像不再被报告为瓶颈。\n6. 清理更安全：Spotlight 无法确认对应应用已删除时不再提供特权辅助程序，`mo analyze` 拒绝移动 ssh-agent 和 tmux 依赖的临时文件夹，NetBird 这类没有 `Contents` 文件夹的应用不再导致跳过应用残留检查。\n7. 覆盖更多缓存与记录：清理 Postman 的 HTTP 与代码缓存，经由 gh、go、simctl、tart 和 Homebrew 完成的清理会出现在 `mo history` 中，支持 OSC 7501 的终端会显示清理状态。\n8. 其他修复：卸载确认页把个人数据的按键提示放在标题上并在选择后完整重绘，与主目录同级的路径不再被缩写为 `~`，日志中的大小在 1000KB 和 1000MB 时进位到下一个单位。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @viniciusdsandrade · @Yuxin-Qiao · @r266-tech · @Dev-next-gen · @osamakaram · @RaghuVatsavai · @valentynapolienova · @sebastianbreguel · @goul4rt · @TyceHerrman · @erickquintanar05.\n\n### Mole Mac App\n\nIf you would rather work in a window than a terminal, [Mole Mac App](https://mole.fit/) covers cleaning, app removal, maintenance, disk analysis and live status, shows everything before it deletes, and adds tools in the menu bar. It costs $19 once, with free updates and a 14-day refund, and you can [download it here](https://mole.fit/download). The CLI stays free and open source.\n","reactions":{"total_count":12,"+1":4,"-1":0,"laugh":1,"hooray":1,"confused":0,"heart":2,"rocket":2,"eyes":2},"mentions_count":11}
+{"id":460526698,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOP1JGW84bcxRq","tag_name":"V1.75.0","target_commitish":"main","name":"V1.75.0 Mindful","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-11-27T11:12:08Z","updated_at":"2026-11-27T11:43:13Z","published_at":"2026-11-27T11:39:13Z","assets":[{"id":800254974,"node_id":"RA_kwDOP1JGW84vsuv-","name":"analyze-darwin-amd64","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":4465376,"digest":"sha256:a3cf39230d89dc2153a1b9a2e5309c32a7d0158bd8101f4e2fb128f2fb59c037","download_count":222,"created_at":"2026-11-27T11:39:12Z","updated_at":"2026-11-27T11:39:12Z"},{"id":800254986,"node_id":"RA_kwDOP1JGW84vsuwK","name":"analyze-darwin-arm64","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":4232002,"digest":"sha256:cd77afd34afc4ee05363b0844fbc1c1939cad84b4b9270b87d49d08c7ea41ebf","download_count":567,"created_at":"2026-11-27T11:39:12Z","updated_at":"2026-11-27T11:39:13Z"},{"id":800254973,"node_id":"RA_kwDOP1JGW84vsuv9","name":"binaries-darwin-amd64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":3557948,"digest":"sha256:536dc6d9652242e2f8b49a968506cf6889e662d7202c33455d9cbfd4ddc6d49e","download_count":27,"created_at":"2026-11-27T11:39:12Z","updated_at":"2026-11-27T11:39:12Z"},{"id":800254972,"node_id":"RA_kwDOP1JGW84vsuv8","name":"binaries-darwin-arm64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/gzip","state":"uploaded","size":3319328,"digest":"sha256:d1f1dc554a6e525cecf1eb0f7d41be7559a4b827b7bd698eb4dc758c9d356b39","download_count":61,"created_at":"2026-11-27T11:39:12Z","updated_at":"2026-11-27T11:39:12Z"},{"id":800254983,"node_id":"RA_kwDOP1JGW84vsuwH","name":"SHA256SUMS","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":536,"digest":"sha256:90b7a8b785ad744eebb5a2506c01063990da219d2a69436fc4f6c6b122cfeae1","download_count":737,"created_at":"2026-11-27T11:39:12Z","updated_at":"2026-11-27T11:39:12Z"},{"id":800254989,"node_id":"RA_kwDOP1JGW84vsuwN","name":"status-darwin-amd64","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":4414288,"digest":"sha256:8dd3cfab8404b272bbc47db8351b8a689418fed640ce6245fbed62b83bc481d2","download_count":198,"created_at":"2026-11-27T11:39:12Z","updated_at":"2026-11-27T11:39:13Z"},{"id":800254971,"node_id":"RA_kwDOP1JGW84vsuv7","name":"status-darwin-arm64","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":4285602,"digest":"sha256:211072093ac1e0472fad1ecfcff40190ce11ea0a0e23217566ad8c3b8024b056","download_count":545,"created_at":"2026-11-27T11:39:12Z","updated_at":"2026-11-27T11:39:12Z"}],"body":"<div align=\"center\">\n  <img src=\"https://cdn.tw93.fun/pic/cole.png\" alt=\"Mole Logo\" width=\"120\" height=\"120\" style=\"border-radius:50%\" />\n  <h1 style=\"margin: 12px 0 6px;\">Mole</h1>\n  <p><em>Deep clean and optimize your Mac.</em></p>\n</div>\n\n### Changelog\n\n1. `mo clean` preserves more working data: the SonarScanner truststore and keystore, kubectl credential plugin caches, the AWS CLI credential cache, the Oh My Zsh completions folder and the Homebrew lists zsh completion reads are kept, so sign-ins, company certificates and Tab completion survive a cleanup.\n2. Running apps keep their caches: the caches of a running Chromium browser, its Service Worker stores and the Figma cache are left until the app quits.\n3. Broader cleanup coverage: Cursor, Notion, Figma and Codex desktop caches, old Cursor Agent versions bundled with Cursor, stale update packages, unsaved Instruments traces and browser profiles left behind by Puppeteer are now cleaned.\n4. Accurate totals and tidier output: aged log sweeps and the privileged sweeps of the System section count in the `mo clean` total, each Electron app shows as one row, and items owned by another user are no longer listed.\n5. `mo status` on desktop Macs: system power on a Mac Studio is read from the DC input and refreshes with CPU and memory, and a footer shows the dashboard keys.\n6. `mo update` stops on Ctrl-C: a Homebrew update is interrupted at once instead of running until its time limit.\n7. Other fixes: Esc in `mo analyze` clears a multi-selection before leaving the view, `mo uninstall` displays app names such as WhatsApp without invisible marks and sends Bitdefender VPN to its own uninstaller, the whitelist is saved atomically, and `mo history`, `mo slim` and shell completion run faster.\n\n### 更新日志\n\n1. `mo clean` 保留更多工作数据：保留 SonarScanner 的信任库与密钥库、kubectl 凭据插件缓存、AWS CLI 凭据缓存、Oh My Zsh 的补全目录以及 zsh 补全读取的 Homebrew 列表，清理后登录状态、公司证书和 Tab 补全不受影响。\n2. 运行中的应用保留缓存：Chromium 内核浏览器运行时的缓存、Service Worker 存储以及 Figma 缓存留到应用退出后再清理。\n3. 覆盖更多清理项：新增 Cursor、Notion、Figma 和 Codex 桌面端缓存、Cursor 内置的旧版 Cursor Agent、过期的更新安装包、未保存的 Instruments 录制以及 Puppeteer 遗留的浏览器配置目录。\n4. 总量更准确、输出更简洁：过期日志和系统栏目中需要管理员权限的清理计入 `mo clean` 的总量，每个 Electron 应用合并为一行，属于其他用户的项目不再列出。\n5. `mo status` 支持台式 Mac：Mac Studio 的整机功耗改为读取直流输入并随 CPU 和内存一同刷新，底部新增按键提示。\n6. `mo update` 响应 Ctrl-C：通过 Homebrew 更新时按下 Ctrl-C 立即停止，不再等到超时。\n7. 其他修复：`mo analyze` 中按 Esc 会先取消多选再退出当前视图，`mo uninstall` 显示 WhatsApp 等应用名称时不再带不可见字符并把 Bitdefender VPN 交给其自带的卸载程序，白名单改为原子写入，`mo history`、`mo slim` 和命令补全的速度有所提升。\n\n### Thanks\n\nIssue reporters and PR contributors this cycle: @Yuxin-Qiao · @viniciusdsandrade · @po-et · @sebastianbreguel · @thejesh23 · @PeterNiu7403 · @r266-tech · @ndminhvn · @oranshea · @Icecreambobcat · @yuluo-yx · @SergoGansta777.\n\n### Mole Mac App\n\nIf you would rather work in a window than a terminal, [Mole Mac App](https://mole.fit/) covers cleaning, app removal, maintenance, disk analysis and live status, shows everything before it deletes, and adds tools in the menu bar. It costs $19 once, with free updates and a 14-day refund, and you can [download it here](https://mole.fit/download). The CLI stays free and open source.\n","reactions":{"total_count":8,"+1":2,"-1":0,"laugh":1,"hooray":1,"confused":0,"heart":1,"rocket":2,"eyes":1},"mentions_count":12}
